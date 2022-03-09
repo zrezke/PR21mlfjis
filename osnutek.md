@@ -5,7 +5,7 @@
 | Ime in priimek | Vpisna številka |
 | -------------- | --------------- |
 | Filip Jeretina | 63200120        |
-| Mark Loboda    | 63200173        |
+| Mark Loboda    | 63200174        |
 | Irinej Slapal  | 63200268        |
 
 ## Podatki
