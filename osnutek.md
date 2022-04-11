@@ -57,3 +57,8 @@ Struktura baze za kazniva dejanja (KD):
 - vpliv mamil  
 - pripadnost organizirani združbi  
 - materialna škoda v EUR  
+
+
+## Dodatni viri
+
+https://pxweb.stat.si/SiStat/sl
