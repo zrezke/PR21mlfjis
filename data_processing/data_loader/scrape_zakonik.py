@@ -1,0 +1,46 @@
+
+
+def scrape_zakonik() -> dict:
+    kd = ['dajanje daril za nezakonito posredovanje', 'dajanje podkupnine', 'davčna zatajitev', 'detomor', 'dogovor za kaznivo dejanje', 'dvojna zakonska zveza', 'financiranje terorizma', 'genocid', 'goljufija', 'goljufija na škodo evropske unije', 'grožnja', 'huda telesna poškodba', 'hudodelsko združevanje', 'hudodelstva zoper človečnost', 'hujskanje k upiranju', 'izdaja in neupravičena pridobitev poslovne skrivnosti', 'izdaja in uporaba lažnega zdravniškega ali veterinarskega spričevala', 'izdaja tajnih podatkov', 'izdelava, pridobitev in odtujitev pripomočkov za ponarejanje', 'izdelovanje in pridobivanje orožja in pripomočkov, namenjenih za kaznivo dejanje', 'izneverjenje', 'izsiljevanje', 'izsiljevanje izjave', 'javno spodbujanje sovraštva, nasilja ali nestrpnosti', 'jemanje podkupnine', 'kriva izpovedba', 'kriva ovadba', 'krvoskrunstvo', 'kršitev avtorskih sorodnih pravic', 'kršitev družinskih obveznosti', 'kršitev enakopravnosti', 'kršitev materialnih avtorskih pravic', 'kršitev moralnih avtorskih pravic', 'kršitev nedotakljivosti stanovanja', 'kršitev omejevalnih ukrepov', 'kršitev pravic do sodelovanja pri upravljanju in kršitev sindikalnih pravic', 'kršitev pravic iz socialnega zavarovanja', 'kršitev pravic pri zaposlovanju ali brezposelnosti', 'kršitev pravice do pravnega sredstva ali peticije', 'kršitev proste odločitve volivcev', 'kršitev spolne nedotakljivost z zlorabo položaja', 'kršitev svobodne opredelitve', 'kršitev tajnosti občil', 'kršitev tajnosti postopka', 'kršitev temeljnih pravic delavcev', 'kršitev volilne pravice', 'kršitev človeškega dostojanstva z zlorabo uradnega položaja ali uradnih pravic', 'lahka telesna poškodba', 'lažno izdajanje za uradno ali vojaško osebo', 'malomarno opravljanje lekarniške dejavnosti', 'malomarno zdravljenje in opravljanje zdravilske dejavnosti', 'mazaštvo', 'mučenje', 'mučenje živali', 'napad na informacijski sistem', 'napad na uradno osebo, ko opravlja naloge varnosti', 'napad na varnost zračnega prometa', 'napeljevanje k samomoru in pomoč pri samomoru', 'nasilje v družini', 'nasilništvo', 'nedovoljena proizvodnja in promet orožja ali eksploziva', 'nedovoljeno dajanje daril', 'nedovoljeno sprejemanje daril', 'neodvrnitev nevarnosti', 'neplačevanje preživnine', 'neupravičena izdaja poklicne skrivnosti', 'neupravičena osebna preiskava', 'neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod', 'neupravičena uporaba tuje oznake ali modela', 'neupravičena uporaba tujega izuma ali topografije', 'neupravičeno prisluškovanje in zvočno snemanje', 'neupravičeno slikovno snemanje', 'nevarna vožnja v cestnem prometu', 'nevestna veterinarska pomoč', 'nevestno delo v službi', 'nezakonit lov', 'nezakonit ribolov', 'nezakonito dajanje pravne pomoči', 'nezakonito ravnanje z zaščitenimi živalmi in rastlinami', 'oborožen upor', 'obrekovanje', 'obremenjevanje in uničevanje okolja', 'oderuštvo', 'odklonitev sodelovanja pri odvračanju splošne nevarnosti', 'odstranitev ali poškodovanje uradnega pečata ali znamenja', 'odvzem ali uničenje uradnega pečata ali uradnih spisov', 'odvzem mladoletne osebe', 'odvzem motornega vozila', 'ogrožanje javnega prometa z nevarnim dejanjem ali sredstvom', 'ogrožanje okolja s hrupom ali svetlobo', 'ogrožanje oseb pod mednarodnim varstvom', 'ogrožanje posebnih vrst javnega prometa', 'ogrožanje varnosti pri delu', 'ogrožanje z nevarnim orodjem pri pretepu ali prepiru', 'omogočanje bega osebi, ki ji je vzeta prostost', 'omogočanje uživanja prepovedanih drog ali nedovoljenih snovi v športu', 'onesnaženje pitne vode', 'onesnaženje živil ali krme', 'opravljanje', 'opustitev nadzorstva v javnem prometu', 'opustitev ovadbe kaznivega dejanja ali storilca', 'opustitev ovadbe, da se pripravlja kaznivo dejanje', 'opustitev pomoči', 'opustitev zdravstvene pomoči', 'organiziranje denarnih verig in nedovoljeno prirejanje iger na srečo',
+          'overitev lažne vsebine', 'oviranje pogreba in skrunitev groba', 'oviranje pravosodnih in drugih državnih organov', 'oviranje verskih obredov', 'očitanje kaznivega dejanja z namenom zaničevanja', 'oškodovanje javnih sredstev', 'oškodovanje tujih pravic', 'oškodovanje upnikov', 'pomoč storilcu po storitvi kaznivega dejanja', 'ponareditev ali uničenje poslovnih listin', 'ponareditev ali uničenje uradne listine, knjige, spisa ali arhivskega gradiva', 'ponareditev volilnih izidov', 'ponarejanje denarja', 'ponarejanje in uporaba ponarejenih vrednotnic ali vrednostnih papirjev', 'ponarejanje listin', 'ponarejanje znamenj za zaznamovanje blaga, mer in uteži', 'poneverba in neupravičena uporaba tujega premoženja', 'posebni primeri ponarejanja listin', 'posebno huda telesna poškodba', 'posilstvo', 'poslovna goljufija', 'povzročitev nevarnosti', 'povzročitev nevarnosti pri gradbeni dejavnosti', 'povzročitev prometne nesreče iz malomarnosti', 'povzročitev smrti iz malomarnosti', 'povzročitev splošne nevarnosti', 'povzročitev stečaja z goljufijo ali nevestnim poslovanjem', 'poškodovanje ali uničenje javnih naprav', 'poškodovanje ali uničenje stvari, ki so posebnega kulturnega pomena ali naravne vrednote', 'poškodovanje tuje stvari', 'požig', 'pranje denarja', 'prenašanje kužnih bolezni pri živalih in', 'prenašanje nalezljivih bolezni', 'prepovedano prehajanje meje ali ozemlja države', 'preprečitev ali oviranje javnega shoda', 'preprečitev dokazovanja', 'preprečitev uradnega dejanja ali maščevanje uradni osebi', 'preprečitev vrnitve na delo', 'preslepitev kupcev', 'preslepitev pri poslovanju z vrednostnimi papirji', 'preslepitev pri pridobitvi in uporabi posojila ali ugodnosti', 'pridobivanje oseb, mlajših od petnajst let, za spole namene', 'prikazovanje, izdelava, posest in posredovanje pornografskega gradiva', 'prikrivanje', 'prisiljenje', 'prisilna sklenitev zakonske zveze ali vzpostavitev podobne skupnosti', 'proizvodnja in promet škodljivih sredstev za zdravljenje', 'proizvodnja in promet škodljivih živil in drugih izdelkov', 'protipraven odvzem prostosti', 'protipravna prilastitev stvari ob preiskavi ali izvršbi', 'protipravno omejevanje konkurence', 'protipravno zavzetje nepremičnine', 'protizakonito, pristransko in krivično sojenje', 'razžalitev', 'rop', 'roparska tatvina', 'samovoljnost', 'skrunitev trupla', 'sodelovanje pri pretepu', 'sodelovanje v skupini, ki prepreči uradni osebi uradno dejanje', 'sodelovanje v skupini, ki stori kaznivo dejanje', 'spolna zloraba slabotne osebe', 'spolni napad na osebo mlajšo od 14 let', 'spolni napad na osebo,  mlajšo od petnajst let', 'spolni napad na osebo,mlajšo od petnajst let', 'spolno nasilje', 'sprejemanje koristi za nezakonito posredovanje', 'sprememba rodbinskega stanja', 'sramotitev', 'sramotitev slovenskega naroda ali narodnih skupnosti', 'tatvina', 'terorizem', 'tihotapstvo', 'trgovina z ljudmi', 'uboj', 'ugrabitev', 'umor', 'uničenje ali ponareditev volilnih listin', 'uničevanje gozdov', 'upor oseb, ki jim je vzeta prostost', 'uporaba ponarejenega negotovinskega plačilnega sredstva', 'velika tatvina', 'vojna hudodelstva', 'zalezovanje', 'zanemarjanje mladoletne osebe in surovo ravnanje', 'zaposlovanje na črno', 'zapustitev poškodovanca v prometni nesreči brez pomoči', 'zapustitev slabotne osebe', 'zatajitev', 'zloraba informacijskega sistema', 'zloraba izvršbe', 'zloraba negotovinskega plačilnega sredstva', 'zloraba notranje informacije', 'zloraba osebnih podatkov', 'zloraba položaja ali zaupanja pri gospodarski dejavnosti', 'zloraba pooblastil', 'zloraba pravic iz socialnega zavarovanja', 'zloraba prostitucije', 'zloraba uradnega položaja ali uradnih pravic', 'zloraba volilne pravice', 'zloraba znamenj za pomoč in nevarnost', 'šikaniranje na delovnem mestu', 'ščuvanje in javno poveličevanje terorističnih dejanj', 'ščuvanje k nasilni spremembi ustavne ureditve', 'žaljiva obdolžitev']
+    kd_cleni = dict.fromkeys(kd)
+    main_div = load_div()
+
+    ps = main_div.find_all("p")
+    for i in range(len(ps)):
+        p = ps[i]
+        if "Naslovnadlenom" in p.attrs["class"]:
+            odstavek_title = p.text.lower().strip() .replace("\r\n", " ").replace("\n", " ").replace("\r", " ")
+            if odstavek_title in kd:
+                alineje = ps[i+1:]
+                kd_cleni[odstavek_title] = []
+                for alineja in alineje:
+                    if "Odstavek" in alineja.attrs["class"] or "tevilnatoka" in alineja.attrs["class"] or "Zamaknjenadolobaprvinivo" in alineja.attrs["class"]:
+                        kd_cleni[odstavek_title].append(alineja.text)
+                        continue
+                    if "len" in alineja.attrs["class"]:
+                        continue
+                    break
+    return kd_cleni
+
+
+def load_div():
+    import bs4
+    import requests
+    import pickle
+    import sys
+    import os
+    sys.setrecursionlimit(99999999)
+    if not os.path.exists("./zakonik.pickle"):
+        r = requests.get(
+            "http://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO5050#")
+        f = open("./zakonik.pickle", "wb")
+        pickle.dump(r.text, f)
+        f.close()
+        html = r.text
+    else:
+        f = open("./zakonik.pickle", "rb")
+        html = pickle.loads(f.read())
+        f.close()
+    bs = bs4.BeautifulSoup(html, "html.parser")
+    return bs.find("div", {"class": "WordSection1"})
