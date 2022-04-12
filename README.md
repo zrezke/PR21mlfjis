@@ -25,5 +25,6 @@ Primer podatka: **KD02/46/1// - UMOR**
   - Primer neujemanja med zakoniki:
     - KD02/103/1// - spolni napad na osebo, mlajšo od 14 let.
     - KZ01/173/1// - spolni napad na osebo, mlajšo od petnajst let
+- Kako utežit kazni? npr. ali je bolje plačat 50.000€ ali je bolje iti v zapor za 30 dni?
 
 ## Glavne ugotovitve
