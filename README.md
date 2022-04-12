@@ -27,4 +27,26 @@ Primer podatka: **KD02/46/1// - UMOR**
     - KZ01/173/1// - spolni napad na osebo, mlajšo od petnajst let
 - Kako utežit kazni? npr. ali je bolje plačat 50.000€ ali je bolje iti v zapor za 30 dni?
 
+## Poskus najdbe najnevarnejšega mesta s pomočjo grafov
+Za reševanje tega problema smo uporabili 4 baze podatkov. Vsebujejo vsa kriminalna dejanja v letih 2018, 2019, 2020 in 2021. Prvi problem, ki smo ga opazili je, da je bilo neko kriminalno dejanje v podatkih zapisano večrat. Zato smo po obdržali le prvo pojavitev neke vrstice po stolpcu ZaporednaStevilkaKD. Nato smo prešteli pojavitve nekega mesta v podatkih. S tem smo dobili graf:
+<img src="./img/top10_crime_city_nofilter.png">
+
+Očitno ta graf ni zelo dober, saj nebi imelo smisla, da je Ljubljana tako zelo nevarna v primerjavi z ostalimi mesti. To pa zato, ker graf prikazuje celotno število zločinov, katerih pa je v Ljubljani sigurno največ, saj je tudi populacija največja.
+
+Zato smo se odločili vrednosti normalizirati z populacijo mesta. Torej smo za vsako mesto izračunali $vrednost=št_{zločinov\_ v\_mestu}/št_{prebivalcev\_v\_mestu}$.
+
+Dobili smo graf:
+<img src="./img/crime_norm0.png">
+
+Še vedno nam ni bilo jasno, zakaj je Murska sobota tako visoko. Zato izpišemo vrste kriminala v Murski Soboti.
+<img src="./img/crime_murska_sobota.png">
+
+Največ primerov kriminala ima vrsta kriminala: `KRŠITEV TEMELJNIH PRAVIC DELAVCEV`. Število kršitev temeljnih pravic delavcev v gornji radgoni je 1221. Delež kršitev temeljnih pravic delavcev v vseh podatkih je 0.03184342970029462. Te vrste kriminal za naš problem ne vsebujejo veliko pomena, zato ga iz vizualizacije odstranimo.
+
+Na koncu izrišemo graf.
+<img src="./nevarnost_mest.png">
+
+S tem rezultatom smo kar zadovoljni in mislimo da je dobro prikaže varnost posameznega mesta.
+
+
 ## Glavne ugotovitve
