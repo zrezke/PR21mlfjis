@@ -47,6 +47,3 @@ Na koncu izrišemo graf.
 <img src="./nevarnost_mest.png">
 
 S tem rezultatom smo kar zadovoljni in mislimo da je dobro prikaže varnost posameznega mesta.
-
-
-## Glavne ugotovitve
