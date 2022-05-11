@@ -1,0 +1,1047 @@
+{
+    "dajanje daril za nezakonito posredovanje": {
+        "average_actual_jailtime": 0.26666666666666666,
+        "dangerousness": 0.1,
+        "max_jailtime": 6
+    },
+    "dajanje podkupnine": {
+        "average_actual_jailtime": 0.704051282051282,
+        "dangerousness": 0.1,
+        "max_jailtime": 6
+    },
+    "davčna zatajitev": {
+        "average_actual_jailtime": 1.5675777777777777,
+        "dangerousness": 0,
+        "max_jailtime": 12
+    },
+    "detomor": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "dogovor za kaznivo dejanje": {
+        "average_actual_jailtime": 0.46875,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "dvojna zakonska zveza": {
+        "average_actual_jailtime": 0.2085,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "finullciranje terorizma": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 15
+    },
+    "genocid": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 100
+    },
+    "goljufija": {
+        "average_actual_jailtime": 0.8949999999999999,
+        "dangerousness": 0.25,
+        "max_jailtime": 10
+    },
+    "goljufija na škodo evropske unije": {
+        "average_actual_jailtime": 1.2215454545454543,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "grožnja": {
+        "average_actual_jailtime": 0.44057407407407406,
+        "dangerousness": 0.1,
+        "max_jailtime": 1
+    },
+    "huda telesna poškodba": {
+        "average_actual_jailtime": 1.1366046511627905,
+        "dangerousness": 1,
+        "max_jailtime": 10
+    },
+    "hudodelsko združevanje": {
+        "average_actual_jailtime": 1.8214285714285714,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "hudodelstva zoper človečnost": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 15
+    },
+    "hujskanje k upiranju": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 3
+    },
+    "izdaja in neupravičena pridobitev poslovne skrivnosti": {
+        "average_actual_jailtime": 0.19433333333333333,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "izdaja in uporaba lažnega zdravniškega ali veterinarskega spričevala": {
+        "average_actual_jailtime": 0.4443333333333333,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "izdaja tajnih podatkov": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "izdelava, pridobitev in odtujitev pripomočkov za ponarejanje": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "izdelovanje in pridobivanje orožja in pripomočkov, namenjenih za kaznivo dejanje": {
+        "average_actual_jailtime": 0.5,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "izneverjenje": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "izsiljevanje": {
+        "average_actual_jailtime": 1.363,
+        "dangerousness": 0.3,
+        "max_jailtime": 10
+    },
+    "izsiljevanje izjave": {
+        "average_actual_jailtime": 0.75,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "javno spodbujanje sovraštva, nasilja ali nestrpnosti": {
+        "average_actual_jailtime": 0.3030909090909091,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "jemanje podkupnine": {
+        "average_actual_jailtime": 1.28335,
+        "dangerousness": 0.1,
+        "max_jailtime": 8
+    },
+    "kriva izpovedba": {
+        "average_actual_jailtime": 0.4015344827586207,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "kriva ovadba": {
+        "average_actual_jailtime": 0.31444,
+        "dangerousness": 0.1,
+        "max_jailtime": 3
+    },
+    "krvoskrunstvo": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "kršitev avtorskih sorodnih pravic": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "kršitev družinskih obveznosti": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "kršitev enakopravnosti": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.3,
+        "max_jailtime": 3
+    },
+    "kršitev materialnih avtorskih pravic": {
+        "average_actual_jailtime": 0.38525,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "kršitev moralnih avtorskih pravic": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "kršitev nedotakljivosti stanovanja": {
+        "average_actual_jailtime": 0.3531016949152542,
+        "dangerousness": 0.3,
+        "max_jailtime": 5
+    },
+    "kršitev omejevalnih ukrepov": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "kršitev pravic do sodelovanja pri upravljanju in kršitev sindikalnih pravic": {
+        "average_actual_jailtime": 0.25,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "kršitev pravic iz socialnega zavarovanja": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "kršitev pravic pri zaposlovanju ali brezposelnosti": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "kršitev pravice do pravnega sredstva ali peticije": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "kršitev proste odločitve volivcev": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 2
+    },
+    "kršitev spolne nedotakljivosti z zlorabo položaja": {
+        "average_actual_jailtime": 1.3660714285714286,
+        "dangerousness": 0.5,
+        "max_jailtime": 8
+    },
+    "kršitev svobodne opredelitve": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 1
+    },
+    "kršitev tajnosti občil": {
+        "average_actual_jailtime": 0.3976363636363637,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "kršitev tajnosti postopka": {
+        "average_actual_jailtime": 0.125,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "kršitev temeljnih pravic delavcev": {
+        "average_actual_jailtime": 0.5478617021276595,
+        "dangerousness": 0.4,
+        "max_jailtime": 5
+    },
+    "kršitev volilne pravice": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.7,
+        "max_jailtime": 1
+    },
+    "kršitev človeškega dostojanstva z zlorabo uradnega položaja ali uradnih pravic": {
+        "average_actual_jailtime": 0.48100000000000004,
+        "dangerousness": 0.9,
+        "max_jailtime": 3
+    },
+    "lahka telesna poškodba": {
+        "average_actual_jailtime": 0.5964999999999999,
+        "dangerousness": 0.7,
+        "max_jailtime": 3
+    },
+    "lažno izdajanje za uradno ali vojaško osebo": {
+        "average_actual_jailtime": 0.30123076923076925,
+        "dangerousness": 0.3,
+        "max_jailtime": 1
+    },
+    "malomarno opravljanje lekarniške dejavnosti": {
+        "average_actual_jailtime": null,
+        "dangerousness": 1,
+        "max_jailtime": 2
+    },
+    "malomarno zdravljenje in opravljanje zdravilniske dejavnosti": {
+        "average_actual_jailtime": null,
+        "dangerousness": 1,
+        "max_jailtime": 3
+    },
+    "mazaštvo": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 10
+    },
+    "mučenje": {
+        "average_actual_jailtime": 0.75,
+        "dangerousness": 1,
+        "max_jailtime": 12
+    },
+    "mučenje živali": {
+        "average_actual_jailtime": 0.29741666666666666,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "napad na informacijski sistem": {
+        "average_actual_jailtime": 0.68164,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "napad na uradno osebo, ko opravlja naloge varnosti": {
+        "average_actual_jailtime": 0.7161449275362317,
+        "dangerousness": 0.9,
+        "max_jailtime": 5
+    },
+    "napad na varnost zračnega prometa": {
+        "average_actual_jailtime": null,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "napeljavanje k samomoru in pomoč pri samomoru": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 15
+    },
+    "nasilje v družini": {
+        "average_actual_jailtime": 0.9428350515463916,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "nasilništvo": {
+        "average_actual_jailtime": 0.9162307692307691,
+        "dangerousness": 1,
+        "max_jailtime": 3
+    },
+    "nedovoljena proizvodnja in promet orožja ali eksploziva": {
+        "average_actual_jailtime": 1.269157894736842,
+        "dangerousness": 0.1,
+        "max_jailtime": 10
+    },
+    "nedovoljeno dajanje daril": {
+        "average_actual_jailtime": 1.0327142857142857,
+        "dangerousness": 0,
+        "max_jailtime": 6
+    },
+    "nedovoljeno sprejemanje daril": {
+        "average_actual_jailtime": 0.8610833333333333,
+        "dangerousness": 0,
+        "max_jailtime": 6
+    },
+    "neodvrnitev nevarnosti": {
+        "average_actual_jailtime": 0.75,
+        "dangerousness": 0.1,
+        "max_jailtime": 2
+    },
+    "neplačevanje preživnine": {
+        "average_actual_jailtime": 0.4635138888888888,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "neupravičena izdaja poklicne skrivnosti": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.2,
+        "max_jailtime": 1
+    },
+    "neupravičena osebna preiskava": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 15
+    },
+    "neupravičena uporaba tujega izuma ali topografije": {
+        "average_actual_jailtime": 0.5625,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "neupravičena uporaba tuje oznake ali modela": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "neupravičeno prisluškovanje in zvočno snemanje": {
+        "average_actual_jailtime": 0.177,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "neupravičeno slikovno snemanje": {
+        "average_actual_jailtime": 0.17773333333333333,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "nevarna vožnja v cestnem prometu": {
+        "average_actual_jailtime": 1.0477291666666666,
+        "dangerousness": 0.4,
+        "max_jailtime": 12
+    },
+    "nevestna veterinarska pomoč": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "nevestno delo v službi": {
+        "average_actual_jailtime": 0.1916,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "nezakonit lov": {
+        "average_actual_jailtime": 0.12733333333333333,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "nezakonit ribolov": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "nezakonito dajanje pravne pomoči": {
+        "average_actual_jailtime": 0.9375,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "nezakonito ravnullje z zaščitenimi živalmi in rastlinami": {
+        "average_actual_jailtime": 0.5311875,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "oborožen upor": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 15
+    },
+    "obrekovanje": {
+        "average_actual_jailtime": 0.15274074074074076,
+        "dangerousness": 0.1,
+        "max_jailtime": 2
+    },
+    "obremenjevanje in uničevanje okolja": {
+        "average_actual_jailtime": 0.43741666666666673,
+        "dangerousness": 0.1,
+        "max_jailtime": 12
+    },
+    "oderuštvo": {
+        "average_actual_jailtime": 0.510375,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "odklonitev sodelovanja pri odvračanju splošne nevarnosti": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 0.5
+    },
+    "odstranitev ali poškodovanje uradnega pečata ali znamenja": {
+        "average_actual_jailtime": 0.15624999999999997,
+        "dangerousness": 0,
+        "max_jailtime": 0.5
+    },
+    "odvzem ali uničenje uradnega pečata ali uradnih spisov": {
+        "average_actual_jailtime": 0.1834,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "odvzem mladoletne osebe": {
+        "average_actual_jailtime": 0.41007894736842104,
+        "dangerousness": 1,
+        "max_jailtime": 5
+    },
+    "odvzem motornega vozila": {
+        "average_actual_jailtime": 0.3204,
+        "dangerousness": 1,
+        "max_jailtime": 3
+    },
+    "ogrožanje javnega prometa z nevarnim dejanjem ali sredstvom": {
+        "average_actual_jailtime": 0.27075,
+        "dangerousness": 1,
+        "max_jailtime": 12
+    },
+    "ogrožanje okolja s hrupom ali svetlobo": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 1,
+        "max_jailtime": 2
+    },
+    "ogrožanje oseb pod mednarodnim varstvom": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.2,
+        "max_jailtime": 15
+    },
+    "ogrožanje posebnih vrst javnega prometa": {
+        "average_actual_jailtime": 0.4220434782608696,
+        "dangerousness": 1,
+        "max_jailtime": 8
+    },
+    "ogrožanje varnosti pri delu": {
+        "average_actual_jailtime": 0.6684565217391303,
+        "dangerousness": 0,
+        "max_jailtime": 12
+    },
+    "ogrožanje z nevarnim orodjem pri pretepu ali prepiru": {
+        "average_actual_jailtime": 0.16095454545454543,
+        "dangerousness": 1,
+        "max_jailtime": 0.5
+    },
+    "omogočanje bega osebi, ki ji je vzeta prostost": {
+        "average_actual_jailtime": 0.9375,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "omogočanje uživanja prepovedanih drog ali nedovoljenih snovi v športu": {
+        "average_actual_jailtime": 0.761340909090909,
+        "dangerousness": 0,
+        "max_jailtime": 12
+    },
+    "onesnaženje pitne vode": {
+        "average_actual_jailtime": 0.1875,
+        "dangerousness": 1,
+        "max_jailtime": 12
+    },
+    "onesnaženje živil ali krme": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 1,
+        "max_jailtime": 12
+    },
+    "opravljanje": {
+        "average_actual_jailtime": 0.025,
+        "dangerousness": 0.2,
+        "max_jailtime": 1
+    },
+    "opustitev nadzorstva v javnem prometu": {
+        "average_actual_jailtime": 0.208,
+        "dangerousness": 1,
+        "max_jailtime": 12
+    },
+    "opustitev ovadbe kaznivega dejanja ali storilca": {
+        "average_actual_jailtime": 0.75,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "opustitev ovadbe, da se pripravlja kaznivo dejanje": {
+        "average_actual_jailtime": 1.5,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "opustitev pomoči": {
+        "average_actual_jailtime": null,
+        "dangerousness": 1,
+        "max_jailtime": 1
+    },
+    "opustitev zdravstvene pomoči": {
+        "average_actual_jailtime": null,
+        "dangerousness": 1,
+        "max_jailtime": 1
+    },
+    "organiziranje denarnih verig in nedovoljeno prirejanje iger na srečo": {
+        "average_actual_jailtime": 0.7708,
+        "dangerousness": 0.1,
+        "max_jailtime": 8
+    },
+    "overitev lažne vsebine": {
+        "average_actual_jailtime": 0.402764705882353,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "oviranje pogreba in skrunitev groba": {
+        "average_actual_jailtime": 0.20833333333333334,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "oviranje pravosodnih in drugih državnih organov": {
+        "average_actual_jailtime": 0.6050434782608696,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "oviranje verskih obredov": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 1
+    },
+    "očitanje kaznivega dejanja z namenom zaničevanja": {
+        "average_actual_jailtime": null,
+        "dangerousness": 1,
+        "max_jailtime": 0.5
+    },
+    "oškodovanje javnih sredstev": {
+        "average_actual_jailtime": 0.1875,
+        "dangerousness": 0.5,
+        "max_jailtime": 8
+    },
+    "oškodovanje tujih pravic": {
+        "average_actual_jailtime": 0.3460277777777778,
+        "dangerousness": 1,
+        "max_jailtime": 1
+    },
+    "oškodovanje upnikov": {
+        "average_actual_jailtime": 1.20703125,
+        "dangerousness": 0.5,
+        "max_jailtime": 5
+    },
+    "pomoč storilcu po storitvi kaznivega dejanja": {
+        "average_actual_jailtime": 0.2625,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "ponareditev ali uničenje poslovnih listin": {
+        "average_actual_jailtime": 0.4835185185185185,
+        "dangerousness": 0.1,
+        "max_jailtime": 2
+    },
+    "ponareditev ali uničenje uradne listine, knjige, spisa ali arhivskega gradiva": {
+        "average_actual_jailtime": 0.41658333333333336,
+        "dangerousness": 0.1,
+        "max_jailtime": 3
+    },
+    "ponareditev volilnih izidov": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "ponarejanje denarja": {
+        "average_actual_jailtime": 0.837361111111111,
+        "dangerousness": 0.4,
+        "max_jailtime": 10
+    },
+    "ponarejanje in uporaba ponarejenih vrednotnic ali vrednostnih papirjev": {
+        "average_actual_jailtime": 0.7992857142857142,
+        "dangerousness": 0.4,
+        "max_jailtime": 10
+    },
+    "ponarejanje listin": {
+        "average_actual_jailtime": 0.5971052631578947,
+        "dangerousness": 0.1,
+        "max_jailtime": 3
+    },
+    "ponarejanje znamenj za zaznamovanje blaga, mer in uteži": {
+        "average_actual_jailtime": 0.2395,
+        "dangerousness": 0.1,
+        "max_jailtime": 2
+    },
+    "posebni primeri ponarejanja listin": {
+        "average_actual_jailtime": 0.28535000000000005,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "posebno huda telesna poškodba": {
+        "average_actual_jailtime": 2.1625,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "posilstvo": {
+        "average_actual_jailtime": 1.919871794871795,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "poslovna goljufija": {
+        "average_actual_jailtime": 0.9715317460317459,
+        "dangerousness": 0,
+        "max_jailtime": 10
+    },
+    "povzročitev nevarnosti": {
+        "average_actual_jailtime": 1.5,
+        "dangerousness": 0.7,
+        "max_jailtime": 2
+    },
+    "povzročitev nevarnosti pri gradbeni dejavnosti": {
+        "average_actual_jailtime": 0.401,
+        "dangerousness": 0.3,
+        "max_jailtime": 8
+    },
+    "povzročitev prometne nesreče iz malomarnosti": {
+        "average_actual_jailtime": 0.745517857142857,
+        "dangerousness": 0.8,
+        "max_jailtime": 8
+    },
+    "povzročitev smrti iz malomarnosti": {
+        "average_actual_jailtime": 1.5833333333333333,
+        "dangerousness": 0.5,
+        "max_jailtime": 5
+    },
+    "povzročitev splošne nevarnosti": {
+        "average_actual_jailtime": 0.7083164556962025,
+        "dangerousness": 0.5,
+        "max_jailtime": 15
+    },
+    "povzročitev stečaja z goljufijo ali nevestnim poslovanjem": {
+        "average_actual_jailtime": 1.575,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "poškodovanje ali uničenje javnih naprav": {
+        "average_actual_jailtime": 0.21175,
+        "dangerousness": 0.3,
+        "max_jailtime": 5
+    },
+    "poškodovanje ali uničenje stvari, ki so posebnega kulturnega pomena ali naravne vrednote": {
+        "average_actual_jailtime": 0.2915,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "poškodovanje tuje stvari": {
+        "average_actual_jailtime": 0.3515242718446601,
+        "dangerousness": 0.2,
+        "max_jailtime": 5
+    },
+    "požig": {
+        "average_actual_jailtime": 0.9326923076923077,
+        "dangerousness": 1,
+        "max_jailtime": 10
+    },
+    "pranje denarja": {
+        "average_actual_jailtime": 1.6605609756097561,
+        "dangerousness": 0,
+        "max_jailtime": 10
+    },
+    "prenašanje kužnih bolezni pri živalih in rastlinah": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.5,
+        "max_jailtime": 2
+    },
+    "prenašanje nalezljivih bolezni": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.5,
+        "max_jailtime": 5
+    },
+    "prepovedano prehajanje meje ali ozemlja države": {
+        "average_actual_jailtime": 1.005938775510204,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "preprečitev ali oviranje javnega shoda": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "preprečitev dokazovanja": {
+        "average_actual_jailtime": 0.31870000000000004,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "preprečitev uradnega dejanja ali maščevanje uradni osebi": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.5,
+        "max_jailtime": 5
+    },
+    "preprečitev vrnitve na delo": {
+        "average_actual_jailtime": 0.32299999999999995,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "preslepitev kupcev": {
+        "average_actual_jailtime": 0.5625,
+        "dangerousness": 0.2,
+        "max_jailtime": 2
+    },
+    "preslepitev pri poslovanju z vrednostnimi papirji": {
+        "average_actual_jailtime": 0.208,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "preslepitev pri pridobitvi in uporabi posojila ali ugodnosti": {
+        "average_actual_jailtime": 0.7401764705882353,
+        "dangerousness": 0.1,
+        "max_jailtime": 3
+    },
+    "pridobivanje oseb, mlajših od petnajst let, za spole namene": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.5,
+        "max_jailtime": 1
+    },
+    "prikazovanje, izdelava, posest in posredovanje pornografskega gradiva": {
+        "average_actual_jailtime": 1.1071224489795917,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "prikrivanje": {
+        "average_actual_jailtime": 0.7181755725190839,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "prisiljenje": {
+        "average_actual_jailtime": 0.3055,
+        "dangerousness": 0.7,
+        "max_jailtime": 2
+    },
+    "prisilna sklenitev zakonske zveze ali vzpostavitev podobne skupnosti": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "proizvodnja in promet škodljivih sredstev za zdravljenje": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 0.8,
+        "max_jailtime": 10
+    },
+    "proizvodnja in promet škodljivih živil in drugih izdelkov": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.7,
+        "max_jailtime": 12
+    },
+    "protipraven odvzem prostosti": {
+        "average_actual_jailtime": 0.299,
+        "dangerousness": 0.8,
+        "max_jailtime": 5
+    },
+    "protipravna prilastitev stvari ob preiskavi ali izvršbi": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 8
+    },
+    "protipravno omejevanje konkurence": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 5
+    },
+    "protipravno zavzetje nepremičnine": {
+        "average_actual_jailtime": 0.25553333333333333,
+        "dangerousness": 0.5,
+        "max_jailtime": 1
+    },
+    "protizakonito, pristransko in krivično sojenje": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "razžalitev": {
+        "average_actual_jailtime": 0.25906521739130434,
+        "dangerousness": 1,
+        "max_jailtime": 0.5
+    },
+    "rop": {
+        "average_actual_jailtime": 1.7974,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "roparska tatvina": {
+        "average_actual_jailtime": 1.7252962962962963,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "samovoljnost": {
+        "average_actual_jailtime": 0.4671153846153845,
+        "dangerousness": 0.5,
+        "max_jailtime": 3
+    },
+    "skrunitev trupla": {
+        "average_actual_jailtime": 0.49160000000000004,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "sodelovanje pri pretepu": {
+        "average_actual_jailtime": 0.3385,
+        "dangerousness": 1,
+        "max_jailtime": 1
+    },
+    "sodelovanje v skupini, ki prepreči uradni osebi uradno dejanje": {
+        "average_actual_jailtime": 0.5118571428571429,
+        "dangerousness": 0.3,
+        "max_jailtime": 3
+    },
+    "sodelovanje v skupini, ki stori kaznivo dejanje": {
+        "average_actual_jailtime": 0.43511111111111117,
+        "dangerousness": 1,
+        "max_jailtime": 5
+    },
+    "spolna zloraba slabotne osebe": {
+        "average_actual_jailtime": 1.4855769230769231,
+        "dangerousness": 0.5,
+        "max_jailtime": 8
+    },
+    "spolni napad na osebo mlajšo od štirinajst let": {
+        "average_actual_jailtime": null,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "spolni napad na osebo, mlajšo od petnajst let": {
+        "average_actual_jailtime": null,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "spolno nasilje": {
+        "average_actual_jailtime": 1.5178571428571428,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "sprejemanje koristi za nezakonito posredovanje": {
+        "average_actual_jailtime": 0.7648571428571429,
+        "dangerousness": 0.5,
+        "max_jailtime": 6
+    },
+    "sprememba rodbinskega stanja": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.5,
+        "max_jailtime": 3
+    },
+    "sramotitev": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 1
+    },
+    "sramotitev slovenskega naroda ali narodnih skupnosti": {
+        "average_actual_jailtime": 0.1916,
+        "dangerousness": 0.2,
+        "max_jailtime": 1
+    },
+    "tatvina": {
+        "average_actual_jailtime": 0.7212865853658537,
+        "dangerousness": 1,
+        "max_jailtime": 3
+    },
+    "terorizem": {
+        "average_actual_jailtime": 3.0625,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "tihotapstvo": {
+        "average_actual_jailtime": 1.625,
+        "dangerousness": 0.2,
+        "max_jailtime": 15
+    },
+    "trgovina z ljudmi": {
+        "average_actual_jailtime": 2.2181176470588233,
+        "dangerousness": 0.9,
+        "max_jailtime": 15
+    },
+    "uboj": {
+        "average_actual_jailtime": 5.717391304347826,
+        "dangerousness": 0.9,
+        "max_jailtime": 15
+    },
+    "ugrabitev": {
+        "average_actual_jailtime": 2.3868571428571426,
+        "dangerousness": 1,
+        "max_jailtime": 10
+    },
+    "umor": {
+        "average_actual_jailtime": 7.903409090909091,
+        "dangerousness": 1,
+        "max_jailtime": 15
+    },
+    "uničenje ali ponareditev volilnih listin": {
+        "average_actual_jailtime": 0.375,
+        "dangerousness": 0,
+        "max_jailtime": 2
+    },
+    "uničevanje gozdov": {
+        "average_actual_jailtime": 3.75,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "upor oseb, ki jim je vzeta prostost": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0,
+        "max_jailtime": 3
+    },
+    "uporaba ponarejenega negotovinskega plačilnega sredstva": {
+        "average_actual_jailtime": 1.141304347826087,
+        "dangerousness": 0.6,
+        "max_jailtime": 8
+    },
+    "velika tatvina": {
+        "average_actual_jailtime": 1.2023935483870967,
+        "dangerousness": 1,
+        "max_jailtime": 8
+    },
+    "vojna hudodelstva": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 15
+    },
+    "zalezovanje": {
+        "average_actual_jailtime": 0.35996,
+        "dangerousness": 0.9,
+        "max_jailtime": 3
+    },
+    "zanemarjanje mladoletne osebe in surovo ravnullje": {
+        "average_actual_jailtime": 0.5855890410958903,
+        "dangerousness": 1,
+        "max_jailtime": 5
+    },
+    "zaposlovanje na črno": {
+        "average_actual_jailtime": 0.33082352941176474,
+        "dangerousness": 0.9,
+        "max_jailtime": 3
+    },
+    "zapustitev poškodovanca v prometni nesreči brez pomoči": {
+        "average_actual_jailtime": 0.28530303030303034,
+        "dangerousness": 0.8,
+        "max_jailtime": 5
+    },
+    "zapustitev slabotne osebe": {
+        "average_actual_jailtime": 0.5625,
+        "dangerousness": 0.1,
+        "max_jailtime": 2
+    },
+    "zatajitev": {
+        "average_actual_jailtime": 0.5871090909090908,
+        "dangerousness": 0.9,
+        "max_jailtime": 5
+    },
+    "zloraba informacijskega sistema": {
+        "average_actual_jailtime": 0.5,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "zloraba izvršbe": {
+        "average_actual_jailtime": 0.21792307692307694,
+        "dangerousness": 0.1,
+        "max_jailtime": 2
+    },
+    "zloraba negotovinskega plačilnega sredstva": {
+        "average_actual_jailtime": 0.2776666666666667,
+        "dangerousness": 0.5,
+        "max_jailtime": 8
+    },
+    "zloraba notranje informacije": {
+        "average_actual_jailtime": 0.3416,
+        "dangerousness": 0.1,
+        "max_jailtime": 5
+    },
+    "zloraba osebnih podatkov": {
+        "average_actual_jailtime": 0.4747708333333332,
+        "dangerousness": 0.7,
+        "max_jailtime": 5
+    },
+    "zloraba položaja ali zaupanja pri gospodarski dejavnosti": {
+        "average_actual_jailtime": 1.1297884615384615,
+        "dangerousness": 0.7,
+        "max_jailtime": 8
+    },
+    "zloraba pooblastil": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.7,
+        "max_jailtime": 8
+    },
+    "zloraba pravic iz socialnega zavarovanja": {
+        "average_actual_jailtime": 0.40553333333333336,
+        "dangerousness": 0.5,
+        "max_jailtime": 2
+    },
+    "zloraba prostitucije": {
+        "average_actual_jailtime": 1.4841428571428572,
+        "dangerousness": 0.1,
+        "max_jailtime": 12
+    },
+    "zloraba uradnega položaja ali uradnih pravic": {
+        "average_actual_jailtime": 1.0619756097560975,
+        "dangerousness": 0.7,
+        "max_jailtime": 8
+    },
+    "zloraba volilne pravice": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.1,
+        "max_jailtime": 1
+    },
+    "zloraba znamenj za pomoč in nevarnost": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.2,
+        "max_jailtime": 5
+    },
+    "šikaniranje na delovnem mestu": {
+        "average_actual_jailtime": 0.5031538461538462,
+        "dangerousness": 1,
+        "max_jailtime": 3
+    },
+    "ščuvanje in javno poveličevanje terorističnih dejanj": {
+        "average_actual_jailtime": null,
+        "dangerousness": 0.7,
+        "max_jailtime": 10
+    },
+    "ščuvanje k nasilni spremembi ustavne ureditve": {
+        "average_actual_jailtime": 0.479,
+        "dangerousness": 0.2,
+        "max_jailtime": 5
+    },
+    "žaljiva obdolžitev": {
+        "average_actual_jailtime": 0.30745945945945946,
+        "dangerousness": 0.1,
+        "max_jailtime": 1
+    }
+}
