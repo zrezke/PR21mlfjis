@@ -3,14 +3,15 @@ package com.example.prmlfjis
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.viewModels
+import androidx.lifecycle.Observer
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
 import com.example.prmlfjis.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.model.PolygonOptions
 
@@ -32,6 +33,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val mapFragment = supportFragmentManager
                 .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
+
+        binding.viewModel = viewModel
+        val areaOutlineObserver = Observer<MutableList<PolygonOptions>>{outlines -> addAreaOutlines(outlines)}
+        viewModel.areaOutlines.observe(this, areaOutlineObserver)
     }
 
     /**
@@ -46,25 +51,20 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
-        // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-
         // we can probably use Polygons to mark slovenian territory by municipality.
         // when a user clicks on a polygon statistics about crime are shown
         // when user zooms in more they can select a place, and an estimation of
         // how dangerous the place is is shown?? perhaps
 
         // Get back the mutable Polygon
-        val rectOptions = PolygonOptions().add(LatLng(46.1919132, 15.2093146))
-            .add(LatLng(46.1911808, 15.2093154))
-            .add(LatLng(46.1914781, 15.2101149))
-            .add(LatLng(46.1916788, 15.2114967))
-            .add(LatLng(46.1920239, 15.2122013))
 
-        val polygon = mMap.addPolygon(rectOptions)
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(LatLng(46.1911808, 15.2093154)))
-        mMap.moveCamera(CameraUpdateFactory.zoomIn())
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(46.1911808, 15.2093154), 7.0f))
 
+    }
+
+    private fun addAreaOutlines(outlines: MutableList<PolygonOptions>) {
+        for (outline in outlines) {
+            mMap.addPolygon(outline)
+        }
     }
 }
