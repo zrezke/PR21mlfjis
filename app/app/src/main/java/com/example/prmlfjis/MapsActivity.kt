@@ -4,6 +4,7 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
 
@@ -13,15 +14,19 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.example.prmlfjis.databinding.ActivityMapsBinding
+import com.google.android.gms.maps.model.Polygon
 import com.google.android.gms.maps.model.PolygonOptions
+import com.google.android.material.snackbar.Snackbar
 
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygonClickListener {
 
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
 
-    private val viewModel : MapsViewModel by viewModels()
+    private val viewModel: MapsViewModel by viewModels()
+
+    private var observingPolygons: MutableList<Pair<String, PolygonOptions>> = mutableListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,11 +36,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
-                .findFragmentById(R.id.map) as SupportMapFragment
+            .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
         binding.viewModel = viewModel
-        val areaOutlineObserver = Observer<MutableList<PolygonOptions>>{outlines -> addAreaOutlines(outlines)}
+        val areaOutlineObserver =
+            Observer<MutableList<Pair<String, PolygonOptions>>> { outlines -> addAreaOutlines(outlines) }
         viewModel.areaOutlines.observe(this, areaOutlineObserver)
     }
 
@@ -57,14 +63,23 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         // how dangerous the place is is shown?? perhaps
 
         // Get back the mutable Polygon
-
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(46.1911808, 15.2093154), 7.0f))
-
+        mMap.setOnPolygonClickListener(this)
     }
 
-    private fun addAreaOutlines(outlines: MutableList<PolygonOptions>) {
+    private fun addAreaOutlines(outlines: MutableList<Pair<String, PolygonOptions>>) {
+        observingPolygons = outlines
         for (outline in outlines) {
-            mMap.addPolygon(outline)
+            val polygon = mMap.addPolygon(
+                outline.second
+                    .clickable(true)
+            )
+            polygon.isClickable = true
+            polygon.tag = outline.first
         }
+    }
+
+    override fun onPolygonClick(polygon: Polygon) {
+        Toast.makeText(this, "Regija: ${polygon.tag?.toString()}", Toast.LENGTH_SHORT).show()
     }
 }

@@ -32,8 +32,8 @@ class MapsViewModel : ViewModel() {
 
     val status: LiveData<String> = _status
 
-    private val _areaOutlines = MutableLiveData<MutableList<PolygonOptions>>()
-    val areaOutlines : LiveData<MutableList<PolygonOptions>> = _areaOutlines
+    private val _areaOutlines = MutableLiveData<MutableList<Pair<String, PolygonOptions>>>()
+    val areaOutlines : LiveData<MutableList<Pair<String, PolygonOptions>>> = _areaOutlines
 
     init {
         makeAreaOutlines()
@@ -53,14 +53,14 @@ class MapsViewModel : ViewModel() {
     }
 
     private fun makeAreaOutlines() {
-        val result = mutableListOf<PolygonOptions>()
+        val result = mutableListOf<Pair<String, PolygonOptions>>()
         viewModelScope.launch {
             for (regija in regije) {
                 try {
                     Log.i("REGIJA: ", regija)
                     val polygonText = NominatimApi.retrofitService.searchQuery(query="${regija} slovenija")[0].geotext
                     Log.i("POLY  for ${regija}: ", polygonText)
-                    result.add(parsePolygonText(polygonText))
+                    result.add(Pair(regija, parsePolygonText(polygonText)))
                 }
                 catch (e: Exception) {
                     Log.i("FAIL REGIJA: ", regija)
@@ -75,8 +75,8 @@ class MapsViewModel : ViewModel() {
 
     private fun parsePolygonText(polygonText: String) : PolygonOptions {
         val polygonOptions = PolygonOptions()
-            .fillColor(Color.RED)
             .strokeColor(Color.BLACK)
+            .clickable(true)
         val latLngStrList = polygonText.replace("POLYGON((", "").replace("))", "").split(",")
         for (latLngStr in latLngStrList) {
             val latLng: MutableList<String> = latLngStr.split(" ") as MutableList<String>
@@ -87,6 +87,7 @@ class MapsViewModel : ViewModel() {
             }
             polygonOptions.add(LatLng(latLng[1].toDouble(), latLng[0].toDouble()))
         }
+
         return polygonOptions
     }
 }
