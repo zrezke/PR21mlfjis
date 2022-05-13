@@ -1,11 +1,13 @@
 package com.example.prmlfjis
 
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
+import android.view.Gravity
+import android.view.View
+import android.widget.*
 import androidx.activity.viewModels
+import androidx.appcompat.app.AlertDialog
+import androidx.core.view.get
 import androidx.lifecycle.Observer
 
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -16,10 +18,13 @@ import com.google.android.gms.maps.model.LatLng
 import com.example.prmlfjis.databinding.ActivityMapsBinding
 import com.google.android.gms.maps.model.Polygon
 import com.google.android.gms.maps.model.PolygonOptions
-import com.google.android.material.snackbar.Snackbar
+import org.json.JSONObject
 
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygonClickListener {
+
+    private lateinit var dialogBuilder: AlertDialog.Builder
+    private lateinit var dialog: AlertDialog
 
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
@@ -41,7 +46,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
 
         binding.viewModel = viewModel
         val areaOutlineObserver =
-            Observer<MutableList<Pair<String, PolygonOptions>>> { outlines -> addAreaOutlines(outlines) }
+            Observer<MutableList<Pair<String, PolygonOptions>>> { outlines ->
+                addAreaOutlines(
+                    outlines
+                )
+            }
         viewModel.areaOutlines.observe(this, areaOutlineObserver)
     }
 
@@ -80,6 +89,63 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
     }
 
     override fun onPolygonClick(polygon: Polygon) {
-        Toast.makeText(this, "Regija: ${polygon.tag?.toString()}", Toast.LENGTH_SHORT).show()
+        polygon.tag?.toString()?.let { dataDialog(it) }
+    }
+
+    fun dataDialog(region: String) {
+        dialogBuilder = AlertDialog.Builder(this)
+        dialogBuilder.setTitle(region.uppercase())
+        val dataPopupView: View = layoutInflater.inflate(R.layout.data_dialog, null)
+
+        dataPopupView.findViewById<Button>(R.id.buttonClose).setOnClickListener {
+            dialog.dismiss()
+        }
+
+        dialogBuilder.setView(dataPopupView)
+        dialog = dialogBuilder.create()
+
+        setDialolgData(dataPopupView, region)
+
+        dialog.show()
+    }
+
+    private fun setDialolgData(dataPopupView: View, region: String) {
+        val data = assets.open("data.json").bufferedReader().use { it.readText() }
+        val regionData = JSONObject(data).getJSONObject("regions").getJSONObject(region.lowercase())
+        // set data
+        val tableLayout = dataPopupView.findViewById<TableLayout>(R.id.dataCardsTableLayout)
+        tableLayout.removeAllViews()
+        val dataNames = regionData.getJSONArray("data_names")
+        val dataValues = regionData.getJSONArray("data_values")
+
+        var row = createNewDialogDataRow()
+        for (i in 0 until dataNames.length()) {
+            if (row.childCount >= 2) {
+                tableLayout.addView(row)
+                row = createNewDialogDataRow()
+            }
+            // create data_card.xml
+            val dataCardView = layoutInflater.inflate(R.layout.data_card, null)
+            dataCardView.findViewById<TextView>(R.id.dataCardName).text = dataNames.getString(i)
+            dataCardView.findViewById<TextView>(R.id.dataCardValue).text = dataValues.getString(i)
+            row.addView(dataCardView)
+        }
+        tableLayout.addView(row)
+
+        val dangerScore = regionData.getInt("data_danger_score")
+        dataPopupView.findViewById<ProgressBar>(R.id.progressBar).progress = dangerScore
+//        dataPopupView.resources.getString(R.string.danger_score, dangerScore)
+//        ABOVE WAY NOT WORKING FOR SOME REASON??
+        dataPopupView.findViewById<TextView>(R.id.textDangerScore).text = "Danger score: $dangerScore%"
+    }
+
+    private fun createNewDialogDataRow() : TableRow {
+        val row = TableRow(this)
+        row.layoutParams = TableRow.LayoutParams(
+            TableRow.LayoutParams.WRAP_CONTENT,
+            TableRow.LayoutParams.WRAP_CONTENT
+        )
+        row.gravity = Gravity.CENTER
+        return row
     }
 }

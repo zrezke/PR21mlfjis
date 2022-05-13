@@ -1,0 +1,15 @@
+{
+  "regions": {
+    "jugovzhodna slovenija": {
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ],
+      "data_danger_score": "67"
+    }
+  }
+}

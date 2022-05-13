@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">prmlfjis</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="content_description_crime_data">Crime data</string>
+    <string name="closeText">Close</string>
+    <string name="danger_score">Danger score: %1$d</string>
+    <string name="string_unknown">unknown</string>
 </resources>
