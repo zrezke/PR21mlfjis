@@ -1,0 +1,64 @@
+{
+    "regions": {
+        "osrednjeslovenska": {
+            "data_danger_score": 67.88300000000001,
+            "data_names": [],
+            "data_values": []
+        },
+        "obalno-kraška": {
+            "data_danger_score": 46.315,
+            "data_names": [],
+            "data_values": []
+        },
+        "jugovzhodna": {
+            "data_danger_score": 42.678,
+            "data_names": [],
+            "data_values": []
+        },
+        "podravska": {
+            "data_danger_score": 36.506,
+            "data_names": [],
+            "data_values": []
+        },
+        "savinjska": {
+            "data_danger_score": 32.836,
+            "data_names": [],
+            "data_values": []
+        },
+        "spodnjeposavska": {
+            "data_danger_score": 32.107,
+            "data_names": [],
+            "data_values": []
+        },
+        "goriška": {
+            "data_danger_score": 29.080000000000002,
+            "data_names": [],
+            "data_values": []
+        },
+        "pomurska": {
+            "data_danger_score": 27.201999999999998,
+            "data_names": [],
+            "data_values": []
+        },
+        "gorenjska": {
+            "data_danger_score": 26.566000000000003,
+            "data_names": [],
+            "data_values": []
+        },
+        "primorsko-notranjska": {
+            "data_danger_score": 24.529,
+            "data_names": [],
+            "data_values": []
+        },
+        "koroška": {
+            "data_danger_score": 16.709,
+            "data_names": [],
+            "data_values": []
+        },
+        "zasavska": {
+            "data_danger_score": 15.922,
+            "data_names": [],
+            "data_values": []
+        }
+    }
+}
