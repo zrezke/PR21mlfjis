@@ -2,6 +2,7 @@ package com.example.prmlfjis
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.widget.*
@@ -14,14 +15,15 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
 import com.example.prmlfjis.databinding.ActivityMapsBinding
-import com.google.android.gms.maps.model.Polygon
-import com.google.android.gms.maps.model.PolygonOptions
+import com.google.android.gms.maps.model.*
+import com.google.android.material.snackbar.Snackbar
+import org.json.JSONException
 import org.json.JSONObject
 
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygonClickListener {
+class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygonClickListener,
+    GoogleMap.OnCameraMoveListener {
 
     private lateinit var dialogBuilder: AlertDialog.Builder
     private lateinit var dialog: AlertDialog
@@ -32,6 +34,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
     private val viewModel: MapsViewModel by viewModels()
 
     private var observingPolygons: MutableList<Pair<String, PolygonOptions>> = mutableListOf()
+
+    private var observingScope: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,6 +51,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         binding.viewModel = viewModel
         val areaOutlineObserver =
             Observer<MutableList<Pair<String, PolygonOptions>>> { outlines ->
+                Log.i("!!!!!!!!!!!!!", "LMAO")
                 addAreaOutlines(
                     outlines
                 )
@@ -74,6 +79,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         // Get back the mutable Polygon
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(46.1911808, 15.2093154), 7.0f))
         mMap.setOnPolygonClickListener(this)
+        mMap.setOnCameraMoveListener(this)
     }
 
     private fun addAreaOutlines(outlines: MutableList<Pair<String, PolygonOptions>>) {
@@ -104,14 +110,22 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         dialogBuilder.setView(dataPopupView)
         dialog = dialogBuilder.create()
 
-        setDialolgData(dataPopupView, region)
-
-        dialog.show()
+        try {
+            setDialolgData(dataPopupView, region)
+            dialog.show()
+        } catch (e: Exception) {
+            Snackbar.make(
+                binding.root,
+                "No data available for this region",
+                Snackbar.LENGTH_LONG
+            ).show()
+        }
     }
 
     private fun setDialolgData(dataPopupView: View, region: String) {
         val data = assets.open("data.json").bufferedReader().use { it.readText() }
-        val regionData = JSONObject(data).getJSONObject("regions").getJSONObject(region.lowercase())
+        val regionData =
+            JSONObject(data).getJSONObject("regions").getJSONObject(region.lowercase())
         // set data
         val tableLayout = dataPopupView.findViewById<TableLayout>(R.id.dataCardsTableLayout)
         tableLayout.removeAllViews()
@@ -136,10 +150,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         dataPopupView.findViewById<ProgressBar>(R.id.progressBar).progress = dangerScore
 //        dataPopupView.resources.getString(R.string.danger_score, dangerScore)
 //        ABOVE WAY NOT WORKING FOR SOME REASON??
-        dataPopupView.findViewById<TextView>(R.id.textDangerScore).text = "Danger score: $dangerScore%"
+        dataPopupView.findViewById<TextView>(R.id.textDangerScore).text =
+            "Danger score: $dangerScore%"
     }
 
-    private fun createNewDialogDataRow() : TableRow {
+    private fun createNewDialogDataRow(): TableRow {
         val row = TableRow(this)
         row.layoutParams = TableRow.LayoutParams(
             TableRow.LayoutParams.WRAP_CONTENT,
@@ -147,5 +162,21 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         )
         row.gravity = Gravity.CENTER
         return row
+    }
+
+    override fun onCameraMove() {
+        val zoom = mMap.cameraPosition.zoom
+        Log.d("ZOOM", zoom.toString())
+        if (zoom >= 8.0 && observingScope != "city") {
+            Log.i("ZOOM-if", "city")
+            mMap.clear()
+            viewModel.chooseAreaOutlines("city")
+            observingScope = "city"
+        } else if (zoom < 8.0 && observingScope != "region") {
+            Log.i("ZOOM-if", "region")
+            mMap.clear()
+            viewModel.chooseAreaOutlines("region")
+            observingScope = "region"
+        }
     }
 }

@@ -6,6 +6,7 @@ import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import retrofit2.http.GET
+import retrofit2.http.Headers
 import retrofit2.http.Query
 
 
@@ -38,6 +39,7 @@ data class NominatimJsonData(
 
 
 interface NominatimApiService {
+    @Headers("Accept-Encoding: identity")
     @GET("search")
     suspend fun getAreaOutline(
         @Query(value = "country", encoded = true) country: String = "",
