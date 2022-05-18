@@ -124,8 +124,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
 
     private fun setDialolgData(dataPopupView: View, region: String) {
         val data = assets.open("data.json").bufferedReader().use { it.readText() }
-        val regionData =
-            JSONObject(data).getJSONObject("regions").getJSONObject(region.lowercase())
+        Log.i("CLICKED REGION: ", region.lowercase())
+        val regionData = JSONObject(data).getJSONObject("regions").getJSONObject(region.lowercase())
         // set data
         val tableLayout = dataPopupView.findViewById<TableLayout>(R.id.dataCardsTableLayout)
         tableLayout.removeAllViews()
