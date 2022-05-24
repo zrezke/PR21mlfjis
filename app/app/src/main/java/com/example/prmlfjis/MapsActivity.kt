@@ -1,7 +1,6 @@
 package com.example.prmlfjis
 
 import android.graphics.Color
-import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
@@ -14,7 +13,6 @@ import androidx.core.graphics.ColorUtils
 import androidx.lifecycle.Observer
 import com.example.prmlfjis.databinding.ActivityMapsBinding
 import com.example.prmlfjis.network.GeocodeResult
-import com.example.prmlfjis.network.GoogleMapsGeocodingResults
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -22,6 +20,7 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
 import com.google.android.material.snackbar.Snackbar
 import org.json.JSONObject
+import kotlin.math.min
 
 private val GREEN = Color.parseColor("#fffff600")
 private val RED = Color.parseColor("#ffff0505")
@@ -98,20 +97,20 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
             return
         }
         mMap.clear()
-        val marker: MarkerOptions = MarkerOptions()
+        val marker = MarkerOptions()
         marker.position(p0)
             .title("Danger estimate")
-        mMap.addMarker(marker);
+        mMap.addMarker(marker)
         Log.d("MARKER", marker.toString())
         viewModel.getReverseGeocoding(p0)
-            .observe(this, Observer<GoogleMapsGeocodingResults> { placeData ->
-                var dangerEstimate: Float
+            .observe(this) { placeData ->
+                var dangerEstimate = 0f
                 placeData.results.forEach { result: GeocodeResult ->
                     result.types!!.forEach { placeType ->
-                        calculatePlaceTypeDanger(placeType)
+                        dangerEstimate += calculatePlaceTypeDanger(placeType)
                     }
                 }
-            })
+            }
     }
 
     private fun calculatePlaceTypeDanger(placeType: String): Float {
@@ -145,7 +144,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         observingPolygons = outlines
         for (outline in outlines) {
             val dataName = outline.first
-            val data = assets.open("data.json").bufferedReader().use { it.readText() }
             val observingData = loadJsonData(observingScope, dataName)
             val dangerScore = makeDangerScore(observingData)
             val greenColor = if (observingScope == "region") GREEN - (0x33 shl 24) else GREEN - (0x66 shl 24)
@@ -154,7 +152,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
                 ColorUtils.blendARGB(
                     greenColor,
                     redColor,
-                    Math.min(1f, dangerScore.toFloat() / 70f)
+                    min(1f, dangerScore.toFloat() / 70f)
                 )
             )
             val polygon = mMap.addPolygon(
@@ -166,7 +164,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         }
     }
 
-    fun dataDialog(region: String) {
+    private fun dataDialog(region: String) {
         dialogBuilder = AlertDialog.Builder(this)
         dialogBuilder.setTitle(region.uppercase())
         val dataPopupView: View = layoutInflater.inflate(R.layout.data_dialog, null)
@@ -179,7 +177,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         dialog = dialogBuilder.create()
 
         try {
-            setDialolgData(dataPopupView, region)
+            setDialogData(dataPopupView, region)
             dialog.show()
         } catch (e: Exception) {
             Snackbar.make(
@@ -201,9 +199,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         throw Exception("Could not load json data!")
     }
 
-    private fun setDialolgData(dataPopupView: View, dataName: String) {
+    private fun setDialogData(dataPopupView: View, dataName: String) {
         Log.d("CLICKED:", dataName.lowercase())
-        var observingData: JSONObject = loadJsonData(observingScope, dataName)
+        val observingData: JSONObject = loadJsonData(observingScope, dataName)
 
         // set data
         val tableLayout = dataPopupView.findViewById<TableLayout>(R.id.dataCardsTableLayout)
