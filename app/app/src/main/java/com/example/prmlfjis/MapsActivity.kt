@@ -32,6 +32,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
     private lateinit var dialogBuilder: AlertDialog.Builder
     private lateinit var dialog: AlertDialog
 
+    private lateinit var data : JSONObject
+    private lateinit var placeTypeMappings: JSONObject
+    private lateinit var placeDangerousness: JSONObject
+    private lateinit var regionDangerousness: JSONObject
+    private lateinit var cityDangerousness: JSONObject
+
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
 
@@ -60,6 +66,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
                 )
             }
         viewModel.areaOutlines.observe(this, areaOutlineObserver)
+
+        data = JSONObject(assets.open("data.json").bufferedReader().use { it.readText() })
+        regionDangerousness = loadJsonData("regions")
+        cityDangerousness = loadJsonData("city")
+        placeTypeMappings = loadJsonData("place_map")
+        placeDangerousness = loadJsonData("places")
     }
 
     /**
@@ -100,21 +112,34 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         val marker = MarkerOptions()
         marker.position(p0)
             .title("Danger estimate")
-        mMap.addMarker(marker)
         Log.d("MARKER", marker.toString())
         viewModel.getReverseGeocoding(p0)
             .observe(this) { placeData ->
+
                 var dangerEstimate = 0f
+                var nEstimates = 0f
                 placeData.results.forEach { result: GeocodeResult ->
                     result.types!!.forEach { placeType ->
                         dangerEstimate += calculatePlaceTypeDanger(placeType)
+                        nEstimates++
                     }
                 }
+                dangerEstimate /= nEstimates
+                dangerEstimate *= 100
+//                dangerEstimate += normalize
+
+                marker.snippet("Estimated danger: $dangerEstimate")
+                val iWindow: Marker? = mMap.addMarker(marker)
+                iWindow?.showInfoWindow()
             }
     }
 
     private fun calculatePlaceTypeDanger(placeType: String): Float {
-        return 0f
+        val placeMapping: String = placeTypeMappings.getString(placeType)
+        Log.d("MAPPED", "$placeType to $placeMapping")
+        val placeDanger: Double = placeDangerousness.getDouble(placeMapping)
+        Log.d("Danger of place $placeMapping", placeDanger.toString())
+        return placeDanger.toFloat()
     }
 
     override fun onCameraMove() {
@@ -144,7 +169,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         observingPolygons = outlines
         for (outline in outlines) {
             val dataName = outline.first
-            val observingData = loadJsonData(observingScope, dataName)
+            val observingData: JSONObject = loadJsonData(observingScope, dataName)
             val dangerScore = makeDangerScore(observingData)
             val greenColor = if (observingScope == "region") GREEN - (0x33 shl 24) else GREEN - (0x66 shl 24)
             val redColor = if (observingScope == "region") RED - (0x33 shl 24) else RED - (0x66 shl 24)
@@ -188,15 +213,20 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         }
     }
 
-    private fun loadJsonData(dataScope: String, dataName: String): JSONObject {
-        val data = assets.open("data.json").bufferedReader().use { it.readText() }
+    private fun loadJsonData(dataScope: String, dataName: String? = null): JSONObject {
         if (dataScope == "region") {
-            return JSONObject(data).getJSONObject("regions").getJSONObject(dataName.lowercase())
+            return data.getJSONObject("regions").apply {
+                if (dataName != null) return this.getJSONObject(dataName.lowercase())
+            }
         } else if (dataScope == "city") {
-            return JSONObject(data).getJSONObject("cities").getJSONObject(dataName.lowercase())
+            return data.getJSONObject("cities").apply {
+                if (dataName != null) return this.getJSONObject(dataName.lowercase())
+            }
+        } else {
+            return data.getJSONObject(dataScope).apply {
+                if (dataName != null) return this.getJSONObject(dataName.lowercase())
+            }
         }
-        Log.d("DATA COULDN'T BE LOADED", "DATA SCOPE: $dataScope, DATA NAME: $dataName")
-        throw Exception("Could not load json data!")
     }
 
     private fun setDialogData(dataPopupView: View, dataName: String) {
