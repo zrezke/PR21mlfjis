@@ -154,7 +154,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
                 ColorUtils.blendARGB(
                     greenColor,
                     redColor,
-                    dangerScore.toFloat() / 70f
+                    Math.min(1f, dangerScore.toFloat() / 70f)
                 )
             )
             val polygon = mMap.addPolygon(
