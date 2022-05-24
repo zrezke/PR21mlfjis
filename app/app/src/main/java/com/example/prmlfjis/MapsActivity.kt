@@ -140,15 +140,21 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         }
     }
 
-    private fun setDialolgData(dataPopupView: View, region: String) {
+    private fun setDialolgData(dataPopupView: View, dataName: String) {
         val data = assets.open("data.json").bufferedReader().use { it.readText() }
-        Log.d("CLICKED REGION: ", region.lowercase())
-        val regionData = JSONObject(data).getJSONObject("regions").getJSONObject(region.lowercase())
+        Log.d("CLICKED:", dataName.lowercase())
+        var observingData : JSONObject = JSONObject(data)
+        if (observingScope == "region") {
+            observingData = JSONObject(data).getJSONObject("regions").getJSONObject(dataName.lowercase())
+        } else if (observingScope == "city") {
+            observingData = JSONObject(data).getJSONObject("cities").getJSONObject(dataName.lowercase())
+        }
+
         // set data
         val tableLayout = dataPopupView.findViewById<TableLayout>(R.id.dataCardsTableLayout)
         tableLayout.removeAllViews()
-        val dataNames = regionData.getJSONArray("data_names")
-        val dataValues = regionData.getJSONArray("data_values")
+        val dataNames = observingData.getJSONArray("data_names")
+        val dataValues = observingData.getJSONArray("data_values")
 
         var row = createNewDialogDataRow()
         for (i in 0 until dataNames.length()) {
@@ -164,7 +170,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         }
         tableLayout.addView(row)
 
-        val dangerScore = regionData.getInt("data_danger_score")
+        val dangerScore = (observingData.getInt("data_danger_score") * 100) / 150  // normalized with 150 for the value to have more meaning
         dataPopupView.findViewById<ProgressBar>(R.id.progressBar).progress = dangerScore
 //        dataPopupView.resources.getString(R.string.danger_score, dangerScore)
 //        ABOVE WAY NOT WORKING FOR SOME REASON??
