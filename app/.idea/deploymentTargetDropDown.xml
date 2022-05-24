@@ -6,12 +6,12 @@
         <type value="RUNNING_DEVICE_TARGET" />
         <deviceKey>
           <Key>
-            <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\Mark\.android\avd\OnePlus_5_API_29.avd" />
+            <type value="SERIAL_NUMBER" />
+            <value value="3930a450" />
           </Key>
         </deviceKey>
       </Target>
     </runningDeviceTargetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2022-05-24T19:22:22.105922Z" />
+    <timeTargetWasSelectedWithDropDown value="2022-05-24T19:25:10.501935300Z" />
   </component>
 </project>
