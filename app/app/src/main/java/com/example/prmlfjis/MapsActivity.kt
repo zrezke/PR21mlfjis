@@ -16,6 +16,7 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.example.prmlfjis.databinding.ActivityMapsBinding
+import com.example.prmlfjis.network.GoogleMapsGeocodingResults
 import com.google.android.gms.maps.model.*
 import com.google.android.material.snackbar.Snackbar
 import org.json.JSONException
@@ -23,7 +24,7 @@ import org.json.JSONObject
 
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygonClickListener,
-    GoogleMap.OnCameraMoveListener {
+    GoogleMap.OnCameraMoveListener, GoogleMap.OnMapClickListener {
 
     private lateinit var dialogBuilder: AlertDialog.Builder
     private lateinit var dialog: AlertDialog
@@ -51,7 +52,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         binding.viewModel = viewModel
         val areaOutlineObserver =
             Observer<MutableList<Pair<String, PolygonOptions>>> { outlines ->
-                Log.i("!!!!!!!!!!!!!", "LMAO")
                 addAreaOutlines(
                     outlines
                 )
@@ -79,6 +79,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         // Get back the mutable Polygon
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(46.1911808, 15.2093154), 7.0f))
         mMap.setOnPolygonClickListener(this)
+        mMap.setOnMapClickListener(this)
         mMap.setOnCameraMoveListener(this)
     }
 
@@ -95,8 +96,25 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
     }
 
     override fun onPolygonClick(polygon: Polygon) {
-        polygon.tag?.toString()?.let { dataDialog(it) }
+        if (mMap.cameraPosition.zoom <= 12) {
+            polygon.tag?.toString()?.let { dataDialog(it) }
+        }
     }
+
+    override fun onMapClick(p0: LatLng) {
+        if (mMap.cameraPosition.zoom <= 12) {
+            return
+        }
+        mMap.clear()
+        val marker : MarkerOptions = MarkerOptions()
+        marker.position(p0)
+        mMap.addMarker(marker);
+        Log.d("MARKER", marker.toString())
+        viewModel.getReverseGeocoding(p0).observe(this, Observer<GoogleMapsGeocodingResults>{ placeData ->
+            Log.d("Place DATA", placeData.results.toString())
+        })
+    }
+
 
     fun dataDialog(region: String) {
         dialogBuilder = AlertDialog.Builder(this)
@@ -124,7 +142,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
 
     private fun setDialolgData(dataPopupView: View, region: String) {
         val data = assets.open("data.json").bufferedReader().use { it.readText() }
-        Log.i("CLICKED REGION: ", region.lowercase())
+        Log.d("CLICKED REGION: ", region.lowercase())
         val regionData = JSONObject(data).getJSONObject("regions").getJSONObject(region.lowercase())
         // set data
         val tableLayout = dataPopupView.findViewById<TableLayout>(R.id.dataCardsTableLayout)
@@ -166,17 +184,20 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
 
     override fun onCameraMove() {
         val zoom = mMap.cameraPosition.zoom
-        Log.d("ZOOM", zoom.toString())
-        if (zoom >= 8.0 && observingScope != "city") {
-            Log.i("ZOOM-if", "city")
+//        Log.d("ZOOM", zoom.toString())
+        if (zoom in 8.0..12.0 && observingScope != "city" && observingScope != "places") {
+            Log.d("ZOOM-if", "city")
             mMap.clear()
             viewModel.chooseAreaOutlines("city")
             observingScope = "city"
         } else if (zoom < 8.0 && observingScope != "region") {
-            Log.i("ZOOM-if", "region")
+            Log.d("ZOOM-if", "region")
             mMap.clear()
             viewModel.chooseAreaOutlines("region")
             observingScope = "region"
+        } else if (observingScope == "city" && zoom > 12) {
+            observingScope = "places"
+            mMap.clear()
         }
     }
 }
