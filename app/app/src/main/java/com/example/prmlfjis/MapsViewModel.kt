@@ -123,7 +123,7 @@ class MapsViewModel(application: Application) : AndroidViewModel(application) {
 //                    Log.d("REGIJA: ", regija)
                     val polygonText = NominatimApi.retrofitService.searchQuery(query="${regija} slovenija")[0].geotext
 //                    Log.d("POLY  for ${regija}: ", polygonText)
-                    result.add(Pair(regija, parsePolygonText(polygonText)))
+                    result.add(Pair(regija, parsePolygonText(polygonText, "region")))
                 }
                 catch (e: Exception) {
                     Log.d("FAIL REGIJA: ", regija)
@@ -143,7 +143,7 @@ class MapsViewModel(application: Application) : AndroidViewModel(application) {
             for (obcina in obcine) {
                 try {
                     val polygonText = NominatimApi.retrofitService.getAreaOutline(city="${obcina}", country="slovenija")[0].geotext
-                    result.add(Pair(obcina, parsePolygonText(polygonText)))
+                    result.add(Pair(obcina, parsePolygonText(polygonText, "city")))
                 }
                 catch (e: Exception) {
                     Log.d("FAIL OBCINA: ", obcina)
@@ -156,23 +156,34 @@ class MapsViewModel(application: Application) : AndroidViewModel(application) {
     }
 
 
-    private fun parsePolygonText(polygonText: String) : PolygonOptions {
-        val polygonOptions = PolygonOptions()
-            .strokeColor(Color.BLACK)
-            .clickable(true)
-        val latLngStrList = polygonText.replace("POLYGON((", "").replace("))", "").split(",")
-        for (latLngStr in latLngStrList) {
-            val latLng: MutableList<String> = latLngStr.split(" ") as MutableList<String>
-            latLng[0] = latLng[0].replace(Regex("[^0-9.\n)]"), "")
-            latLng[1] = latLng[1].replace(Regex("[^0-9.\n)]"), "")
-            if (")" in latLng[1]) {
-                latLng[1] = latLng[1].replace(")", "")
-                polygonOptions.add(LatLng(latLng[1].toDouble(), latLng[0].toDouble()))
-                break
-            }
-            polygonOptions.add(LatLng(latLng[1].toDouble(), latLng[0].toDouble()))
-        }
+    private fun parsePolygonText(polygonText: String, areaType: String) : PolygonOptions {
+        val reductionFactor: Int = if (areaType == "region") 20 else 2
 
+        val polygonOptions = PolygonOptions()
+            .strokeColor(Color.parseColor("#ff212121"))
+            .strokeWidth(5f)
+            .clickable(true)
+
+        run breaking@{
+            polygonText.replace("POLYGON((", "").replace("))", "").split(",")
+                .forEachIndexed { index, latLngStr ->
+                    val latLng: MutableList<String> = latLngStr.split(" ") as MutableList<String>
+                    latLng[0] = latLng[0].replace(Regex("[^0-9.\n)]"), "")
+                    latLng[1] = latLng[1].replace(Regex("[^0-9.\n)]"), "")
+                    if (")" !in latLng[1] && index % reductionFactor != 0) {
+                        // basically continue
+                        return@forEachIndexed
+                    }
+                    if (")" in latLng[1]) {
+                        latLng[1] = latLng[1].replace(")", "")
+                        polygonOptions.add(LatLng(latLng[1].toDouble(), latLng[0].toDouble()))
+                        polygonOptions.add(polygonOptions.points[0])
+                        // basically break
+                        return@breaking
+                    }
+                    polygonOptions.add(LatLng(latLng[1].toDouble(), latLng[0].toDouble()))
+                }
+        }
         return polygonOptions
     }
 }

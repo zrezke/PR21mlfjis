@@ -1,6 +1,7 @@
 package com.example.prmlfjis
 
-import androidx.appcompat.app.AppCompatActivity
+import android.graphics.Color
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
@@ -8,19 +9,22 @@ import android.view.View
 import android.widget.*
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
-import androidx.core.view.get
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.graphics.ColorUtils
 import androidx.lifecycle.Observer
-
+import com.example.prmlfjis.databinding.ActivityMapsBinding
+import com.example.prmlfjis.network.GeocodeResult
+import com.example.prmlfjis.network.GoogleMapsGeocodingResults
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
-import com.example.prmlfjis.databinding.ActivityMapsBinding
-import com.example.prmlfjis.network.GoogleMapsGeocodingResults
 import com.google.android.gms.maps.model.*
 import com.google.android.material.snackbar.Snackbar
-import org.json.JSONException
 import org.json.JSONObject
+
+private val GREEN = Color.parseColor("#fffff600")
+private val RED = Color.parseColor("#ffff0505")
 
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygonClickListener,
@@ -36,7 +40,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
 
     private var observingPolygons: MutableList<Pair<String, PolygonOptions>> = mutableListOf()
 
-    private var observingScope: String = ""
+    private var observingScope: String = "region"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -83,18 +87,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         mMap.setOnCameraMoveListener(this)
     }
 
-    private fun addAreaOutlines(outlines: MutableList<Pair<String, PolygonOptions>>) {
-        observingPolygons = outlines
-        for (outline in outlines) {
-            val polygon = mMap.addPolygon(
-                outline.second
-                    .clickable(true)
-            )
-            polygon.isClickable = true
-            polygon.tag = outline.first
-        }
-    }
-
     override fun onPolygonClick(polygon: Polygon) {
         if (mMap.cameraPosition.zoom <= 12) {
             polygon.tag?.toString()?.let { dataDialog(it) }
@@ -106,15 +98,73 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
             return
         }
         mMap.clear()
-        val marker : MarkerOptions = MarkerOptions()
+        val marker: MarkerOptions = MarkerOptions()
         marker.position(p0)
+            .title("Danger estimate")
         mMap.addMarker(marker);
         Log.d("MARKER", marker.toString())
-        viewModel.getReverseGeocoding(p0).observe(this, Observer<GoogleMapsGeocodingResults>{ placeData ->
-            Log.d("Place DATA", placeData.results.toString())
-        })
+        viewModel.getReverseGeocoding(p0)
+            .observe(this, Observer<GoogleMapsGeocodingResults> { placeData ->
+                var dangerEstimate: Float
+                placeData.results.forEach { result: GeocodeResult ->
+                    result.types!!.forEach { placeType ->
+                        calculatePlaceTypeDanger(placeType)
+                    }
+                }
+            })
     }
 
+    private fun calculatePlaceTypeDanger(placeType: String): Float {
+        return 0f
+    }
+
+    override fun onCameraMove() {
+        val zoom = mMap.cameraPosition.zoom
+//        Log.d("ZOOM", zoom.toString())
+        if (zoom in 8.0..12.0 && observingScope != "city" && observingScope != "places") {
+            Log.d("ZOOM-if", "city")
+            mMap.clear()
+            observingScope = "city"
+            viewModel.chooseAreaOutlines("city")
+        } else if (zoom < 8.0 && observingScope != "region") {
+            Log.d("ZOOM-if", "region")
+            mMap.clear()
+            observingScope = "region"
+            viewModel.chooseAreaOutlines("region")
+        } else if (observingScope == "city" && zoom > 12) {
+            observingScope = "places"
+            mMap.clear()
+        } else if (observingScope == "places" && zoom <= 12) {
+            observingScope = "city"
+            mMap.clear()
+            viewModel.chooseAreaOutlines("city")
+        }
+    }
+
+    private fun addAreaOutlines(outlines: MutableList<Pair<String, PolygonOptions>>) {
+        observingPolygons = outlines
+        for (outline in outlines) {
+            val dataName = outline.first
+            val data = assets.open("data.json").bufferedReader().use { it.readText() }
+            val observingData = loadJsonData(observingScope, dataName)
+            val dangerScore = makeDangerScore(observingData)
+            val greenColor = if (observingScope == "region") GREEN - (0x33 shl 24) else GREEN - (0x66 shl 24)
+            val redColor = if (observingScope == "region") RED - (0x33 shl 24) else RED - (0x66 shl 24)
+            outline.second.fillColor(
+                ColorUtils.blendARGB(
+                    greenColor,
+                    redColor,
+                    dangerScore.toFloat() / 70f
+                )
+            )
+            val polygon = mMap.addPolygon(
+                outline.second
+                    .clickable(true)
+            )
+            polygon.isClickable = true
+            polygon.tag = outline.first
+        }
+    }
 
     fun dataDialog(region: String) {
         dialogBuilder = AlertDialog.Builder(this)
@@ -140,15 +190,20 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         }
     }
 
-    private fun setDialolgData(dataPopupView: View, dataName: String) {
+    private fun loadJsonData(dataScope: String, dataName: String): JSONObject {
         val data = assets.open("data.json").bufferedReader().use { it.readText() }
-        Log.d("CLICKED:", dataName.lowercase())
-        var observingData : JSONObject = JSONObject(data)
-        if (observingScope == "region") {
-            observingData = JSONObject(data).getJSONObject("regions").getJSONObject(dataName.lowercase())
-        } else if (observingScope == "city") {
-            observingData = JSONObject(data).getJSONObject("cities").getJSONObject(dataName.lowercase())
+        if (dataScope == "region") {
+            return JSONObject(data).getJSONObject("regions").getJSONObject(dataName.lowercase())
+        } else if (dataScope == "city") {
+            return JSONObject(data).getJSONObject("cities").getJSONObject(dataName.lowercase())
         }
+        Log.d("DATA COULDN'T BE LOADED", "DATA SCOPE: $dataScope, DATA NAME: $dataName")
+        throw Exception("Could not load json data!")
+    }
+
+    private fun setDialolgData(dataPopupView: View, dataName: String) {
+        Log.d("CLICKED:", dataName.lowercase())
+        var observingData: JSONObject = loadJsonData(observingScope, dataName)
 
         // set data
         val tableLayout = dataPopupView.findViewById<TableLayout>(R.id.dataCardsTableLayout)
@@ -170,12 +225,16 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         }
         tableLayout.addView(row)
 
-        val dangerScore = (observingData.getInt("data_danger_score") * 100) / 150  // normalized with 150 for the value to have more meaning
+        val dangerScore = makeDangerScore(observingData)  // normalized with 150 for the value to have more meaning
         dataPopupView.findViewById<ProgressBar>(R.id.progressBar).progress = dangerScore
 //        dataPopupView.resources.getString(R.string.danger_score, dangerScore)
 //        ABOVE WAY NOT WORKING FOR SOME REASON??
         dataPopupView.findViewById<TextView>(R.id.textDangerScore).text =
             "Danger score: $dangerScore%"
+    }
+
+    private fun makeDangerScore(observingData: JSONObject): Int {
+        return (observingData.getInt("data_danger_score") * 100) / 130
     }
 
     private fun createNewDialogDataRow(): TableRow {
@@ -186,24 +245,5 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         )
         row.gravity = Gravity.CENTER
         return row
-    }
-
-    override fun onCameraMove() {
-        val zoom = mMap.cameraPosition.zoom
-//        Log.d("ZOOM", zoom.toString())
-        if (zoom in 8.0..12.0 && observingScope != "city" && observingScope != "places") {
-            Log.d("ZOOM-if", "city")
-            mMap.clear()
-            viewModel.chooseAreaOutlines("city")
-            observingScope = "city"
-        } else if (zoom < 8.0 && observingScope != "region") {
-            Log.d("ZOOM-if", "region")
-            mMap.clear()
-            viewModel.chooseAreaOutlines("region")
-            observingScope = "region"
-        } else if (observingScope == "city" && zoom > 12) {
-            observingScope = "places"
-            mMap.clear()
-        }
     }
 }
