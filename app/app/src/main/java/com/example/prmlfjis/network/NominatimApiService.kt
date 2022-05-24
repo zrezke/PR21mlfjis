@@ -45,14 +45,16 @@ interface NominatimApiService {
         @Query(value = "country", encoded = true) country: String = "",
         @Query(value = "city", encoded = true) city: String = "",
         @Query(value = "polygon_text", encoded = true) polygon_text: Int = 1,
-        @Query(value = "format", encoded = true) format: String = "json"
+        @Query(value = "format", encoded = true) format: String = "json",
+        @Query(value = "polygon_threshold", encoded = true) polygonThreshold: Float = 0.001f
     ): List<NominatimJsonData>
 
     @GET("search")
     suspend fun searchQuery(
         @Query(value = "q", encoded = true) query: String = "",
         @Query(value = "polygon_text", encoded = true) polygon_text: Int = 1,
-        @Query(value = "format", encoded = true) format: String = "json"
+        @Query(value = "format", encoded = true) format: String = "json",
+        @Query(value = "polygon_threshold", encoded = true) polygonThreshold: Float = 0.001f
     ): List<NominatimJsonData>
 }
 
