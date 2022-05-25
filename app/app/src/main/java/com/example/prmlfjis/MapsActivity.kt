@@ -22,6 +22,7 @@ import androidx.core.graphics.ColorUtils
 import androidx.lifecycle.Observer
 import com.example.prmlfjis.databinding.ActivityMapsBinding
 import com.example.prmlfjis.network.GeocodeResult
+import com.example.prmlfjis.network.NominatimJsonData
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -89,8 +90,15 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
     private fun configureSearchBar(searchView: SearchView) {
         searchView.queryHint = "Search for a place"
 
-        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener,
+            GoogleMap.CancelableCallback {
+
+            private lateinit var resultForMarker: NominatimJsonData
+
             override fun onQueryTextSubmit(query: String?): Boolean {
+
+
+
                 if (query != null) {
                     try {
                         // check if the query is in region or city
@@ -117,6 +125,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
                                 if (it != null) {
                                     it.forEach { result ->
                                         if (!setOf("amenity", "building", "shop").contains(result._class)) return@forEach
+                                        resultForMarker = result
                                         // move camera to the result
                                         mMap.animateCamera(
                                             CameraUpdateFactory.newLatLngZoom(
@@ -125,13 +134,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
                                                     result.lon.toDouble()
                                                 ),
                                                 15f
-                                            )
-                                        )
+                                            ), 3000, this)
                                         (getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
                                             currentFocus?.windowToken,
                                             0
                                         )
-                                        outputPlaceDangerousnessToMap(LatLng(result.lat.toDouble(), result.lon.toDouble()), result.displayName)
                                     }
                                 }
                             })
@@ -144,6 +151,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
 
             override fun onQueryTextChange(newText: String?): Boolean {
                 return true
+            }
+
+            override fun onCancel() {
+            }
+
+            override fun onFinish() {
+                outputPlaceDangerousnessToMap(LatLng(resultForMarker.lat.toDouble(), resultForMarker.lon.toDouble()), resultForMarker.displayName)
             }
         })
     }
@@ -474,6 +488,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
             }
     }
 }
+
 
 fun JSONObject.getNullableString(name: String): String? {
     if (has(name) && !isNull(name)) {
