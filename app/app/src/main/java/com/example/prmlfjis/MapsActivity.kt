@@ -126,9 +126,23 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
                 }
                 dangerEstimate /= nEstimates
                 dangerEstimate *= 100
-//                dangerEstimate += normalize
+                val city: String = placeData.results.find {
+                    it.addressComponents?.find { it ->
+                        it.types!!.contains("postal_town")
+                    } != null
+                }?.addressComponents?.find { it.types!!.contains("postal_town")}!!.longName!!
+                val cityRegionMapping: String? = loadJsonData("city_region").getNullableString(city.lowercase())
+                if (cityRegionMapping != null) {
+                    val regionDanger: Float = regionDangerousness.getJSONObject(cityRegionMapping)
+                        .getDouble("data_danger_score").toFloat()
+                    dangerEstimate += regionDanger
+                    dangerEstimate /= 2
+                    Log.d("MAPPED $city to ", "$cityRegionMapping and now calculating danger with region info added!")
+                }
+                dangerEstimate *= 100
+                dangerEstimate /= 130
 
-                marker.snippet("Estimated danger: $dangerEstimate")
+                marker.snippet("Estimated danger: ${dangerEstimate.toInt()}%")
                 val iWindow: Marker? = mMap.addMarker(marker)
                 iWindow?.showInfoWindow()
             }
@@ -136,7 +150,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
 
     private fun calculatePlaceTypeDanger(placeType: String): Float {
         val placeMapping: String = placeTypeMappings.getString(placeType)
-        Log.d("MAPPED", "$placeType to $placeMapping")
         val placeDanger: Double = placeDangerousness.getDouble(placeMapping)
         Log.d("Danger of place $placeMapping", placeDanger.toString())
         return placeDanger.toFloat()
@@ -274,4 +287,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         row.gravity = Gravity.CENTER
         return row
     }
+}
+
+fun JSONObject.getNullableString(name: String) : String? {
+    if (has(name) && !isNull(name)) {
+        return getString(name)
+    }
+    return null
 }

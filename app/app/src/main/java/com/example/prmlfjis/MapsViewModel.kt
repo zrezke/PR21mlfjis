@@ -109,7 +109,6 @@ class MapsViewModel(application: Application) : AndroidViewModel(application) {
             Log.d("LOC", "${latlng.latitude},${latlng.longitude}")
             val apiReturn: GoogleMapsGeocodingResults =
                 GoogleMapsApi.retrofitService.reverseGeocoding("${latlng.latitude},${latlng.longitude}", sha1=getSig(context, "SHA1"))
-            Log.d("API RETURN", apiReturn.toString())
             result.value = apiReturn
         }
         return result

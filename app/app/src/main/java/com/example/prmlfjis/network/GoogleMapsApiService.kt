@@ -34,8 +34,8 @@ data class AddressComponents (
 
 data class GeocodeResult (
     val types: List<String>?,
-    val formatted_address : String?,
-    val address_components : List<AddressComponents>?,
+    @Json(name = "formatted_address") val formattedAddress : String?,
+    @Json(name = "address_components") val addressComponents : List<AddressComponents>?,
     @Json(name="partial_match") val partialMatch : Boolean?,
     @Json(name="place_id") val placeId : String?,
     @Json(name="postcode_localities") val postcodeLocalities : List<String>?,
