@@ -1,0 +1,1505 @@
+{
+  "regions": {
+    "osrednjeslovenska": {
+      "data_danger_score": 67.88300000000001,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "podravska": {
+      "data_danger_score": 36.506,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "savinjska": {
+      "data_danger_score": 32.836,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "goriška": {
+      "data_danger_score": 29.080000000000002,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "pomurska": {
+      "data_danger_score": 27.201999999999998,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "gorenjska": {
+      "data_danger_score": 26.566000000000003,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "koroška": {
+      "data_danger_score": 16.709,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "zasavska": {
+      "data_danger_score": 15.922,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "obalno - kraška": {
+      "data_danger_score": 46.315,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "jugovzhodna slovenija": {
+      "data_danger_score": 42.678,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "primorsko - notranjska": {
+      "data_danger_score": 24.529,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    },
+    "posavska": {
+      "data_danger_score": 32.107,
+      "data_names": ["Najpogostejši kriminal", "Najpogostejši kriminal"],
+      "data_values": ["Tatvina", "Tatvina"]
+    }
+  },
+  "cities": {
+    "novo mesto": {
+      "data_danger_score": 104.449,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ljubljana": {
+      "data_danger_score": 104.18400000000001,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "grosuplje": {
+      "data_danger_score": 88.313,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "murska sobota": {
+      "data_danger_score": 85.42699999999999,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "domžale": {
+      "data_danger_score": 81.167,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "trebnje": {
+      "data_danger_score": 74.026,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "mozirje": {
+      "data_danger_score": 72.99900000000001,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "pesnica": {
+      "data_danger_score": 71.907,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "lenart": {
+      "data_danger_score": 71.296,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kočevje": {
+      "data_danger_score": 70.621,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "piran": {
+      "data_danger_score": 69.71300000000001,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ptuj": {
+      "data_danger_score": 69.05799999999999,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "maribor": {
+      "data_danger_score": 68.047,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "nova gorica": {
+      "data_danger_score": 67.31899999999999,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sežana": {
+      "data_danger_score": 66.39500000000001,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "gornja radgona": {
+      "data_danger_score": 65.81700000000001,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "celje": {
+      "data_danger_score": 65.036,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "radovljica": {
+      "data_danger_score": 59.059,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šmarje pri jelšah": {
+      "data_danger_score": 58.357000000000006,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "žalec": {
+      "data_danger_score": 57.562000000000005,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "črnomelj": {
+      "data_danger_score": 55.813,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "postojna": {
+      "data_danger_score": 53.335,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "koper": {
+      "data_danger_score": 52.574,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "lendava": {
+      "data_danger_score": 50.778999999999996,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "krško": {
+      "data_danger_score": 50.15500000000001,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kranj": {
+      "data_danger_score": 49.197,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "slovenske konjice": {
+      "data_danger_score": 47.033,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "velenje": {
+      "data_danger_score": 46.760000000000005,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "jesenice": {
+      "data_danger_score": 43.28,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "slovenska bistrica": {
+      "data_danger_score": 41.581,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kamnik": {
+      "data_danger_score": 41.446,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "vrhnika": {
+      "data_danger_score": 41.018,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "metlika": {
+      "data_danger_score": 38.797,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "logatec": {
+      "data_danger_score": 38.191,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ravne na koroškem": {
+      "data_danger_score": 37.735,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "laško": {
+      "data_danger_score": 37.406,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "izola": {
+      "data_danger_score": 36.101,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ribnica": {
+      "data_danger_score": 35.038000000000004,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "tolmin": {
+      "data_danger_score": 34.655,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "litija": {
+      "data_danger_score": 33.513,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ruše": {
+      "data_danger_score": 33.43,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "radlje ob dravi": {
+      "data_danger_score": 32.756,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "brežice": {
+      "data_danger_score": 31.358000000000004,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ajdovščina": {
+      "data_danger_score": 30.791,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ljutomer": {
+      "data_danger_score": 27.966,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "škofja loka": {
+      "data_danger_score": 25.228,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "trbovlje": {
+      "data_danger_score": 24.677,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "idrija": {
+      "data_danger_score": 24.641,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "slovenj gradec": {
+      "data_danger_score": 23.637,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "cerknica": {
+      "data_danger_score": 23.162,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sevnica": {
+      "data_danger_score": 22.747,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šentjur": {
+      "data_danger_score": 22.485,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "hrastnik": {
+      "data_danger_score": 18.332,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "zagorje ob savi": {
+      "data_danger_score": 18.123,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ormož": {
+      "data_danger_score": 17.378,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "tržič": {
+      "data_danger_score": 16.699,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dravograd": {
+      "data_danger_score": 16.387,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ilirska bistrica": {
+      "data_danger_score": 15.777,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "rečica ob savinji": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "hrpelje - kozina": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šentrupert": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "mislinja": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "jezersko": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šmartno ob paki": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šmartno pri litiji": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ivančna gorica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sveti tomaž": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ig": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šmarješke toplice": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "hodoš": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "hoče - slivnica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "horjul": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kidričevo": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "hajdina": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šoštanj": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "juršinci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kanal ob soči": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "gornji petrovci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šentilj": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šentjernej": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kuzma": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "križevci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "bovec": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šenčur": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kobarid": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "grad": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "škocjan": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kozje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kostel": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kostanjevica na krki": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "škofljica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "komenda": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "komen": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kobilje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "brda": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "bohinj": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "gorje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "gornji grad": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "borovnica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "žetale": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "cankova": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "žiri": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "brezovica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kranjska gora": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "braslovče": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "kungota": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "bloke": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "žužemberk": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sveta ana": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "beltinci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "apače": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ankaran": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "cerklje na gorenjskem": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "cerkno": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "cerkvenjak": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "cirkulane": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šalovci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "gorišnica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "gorenja vas - poljane": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "duplek": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dornava": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "železniki": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dolenjske toplice": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dol pri ljubljani": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dobrovnik": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dobrova - polhov gradec": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dobrna": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dobrepolje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "dobje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "divača": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "destrnik": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sveta trojica v slovenskih goricah": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "benedikt": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "šempeter - vrtojba": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "črenšovci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "prevalje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "renče - vogrsko": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "rače - fram": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "razkrižje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "velika polana": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "velike lašče": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "radeče": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "puconci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ribnica na pohorju": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "veržej": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "radenci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "prebold": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "črna na koroškem": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "videm": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "polzela": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "poljčane": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "turnišče": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "rogatec": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "podvelka": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "solčava": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sveti jurij ob ščavnici": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sveti andraž v slovenskih goricah": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "preddvor": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "bistrica ob sotli": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "starše": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "bled": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "zreče": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sodražica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "rogaška slatina": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "tabor": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "tišina": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "trnovska vas": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "trzin": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "semič": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "selnica ob dravi": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "rogašovci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "podčetrtek": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "podlehnik": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "ljubno": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "majšperk": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "mežica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "vuzenica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "mengeš": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "medvode": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "markovci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "zavrč": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "makole": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "luče": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "miren - kostanjevica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "straža": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "središče ob dravi": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "lukovica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "loški potok": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "oplotnica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "log - dragomer": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "sveti jurij v slovenskih goricah": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "miklavž na dravskem polju": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "mirna": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "pivka": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "nazarje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "vipava": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "vitanje": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "osilnica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "lovrenc na pohorju": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "vodice": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "loška dolina": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "vojnik": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "naklo": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "mirna peč": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "muta": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "vransko": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "žirovnica": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "moravče": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "moravske toplice": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "mokronog - trebelno": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "odranci": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    },
+    "štore": {
+      "data_danger_score": 0.0,
+      "data_names": ["Najpogostejši kriminal", "Najbolj nevarni kriminal"],
+      "data_values": ["tatvina", "tatvina"]
+    }
+  },
+  "place_map": {
+    "administrative_area_level_1": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_2": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_3": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_4": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_5": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_6": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_7": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "archipelago": "NARAVNA POVRŠINA",
+    "colloquial_area": "PROSTOR DRUGIH USTANOV",
+    "continent": "NARAVNA POVRŠINA",
+    "country": "NARAVNA POVRŠINA",
+    "establishment": "PROSTOR DRUGIH USTANOV",
+    "finance": "PROSTOR ZA DENARNO-FINANČNE STORITVE",
+    "floor": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "food": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "general_contractor": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "geocode": "NARAVNA POVRŠINA",
+    "health": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "intersection": "OBMOČJE PROMETA",
+    "landmark": "NARAVNA POVRŠINA",
+    "locality": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "natural_feature": "NARAVNA POVRŠINA",
+    "neighborhood": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "place_of_worship": "PROSTOR ZA VERSKE OBREDE",
+    "plus_code": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "point_of_interest": "PROSTOR ZA KULTURNO DEJAVNOST",
+    "political": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "post_box": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "postal_code": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "postal_code_prefix": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "postal_code_suffix": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "postal_town": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "premise": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "room": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "route": "OBMOČJE PROMETA",
+    "street_address": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "street_number": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "sublocality": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "sublocality_level_1": "OBMOČJE PROMETA",
+    "sublocality_level_2": "OBMOČJE PROMETA",
+    "sublocality_level_3": "OBMOČJE PROMETA",
+    "sublocality_level_4": "OBMOČJE PROMETA",
+    "sublocality_level_5": "OBMOČJE PROMETA",
+    "subpremise": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "town_square": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "accounting": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "airport": "OBMOČJE PROMETA",
+    "amusement_park": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "aquarium": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "art_gallery": "PROSTOR ZA KULTURNO DEJAVNOST",
+    "atm": "PROSTOR ZA DENARNO-FINANČNE STORITVE",
+    "bakery": "PRODAJNI PROSTOR",
+    "bank": "PROSTOR ZA DENARNO-FINANČNE STORITVE",
+    "bar": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "beauty_salon": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "bicycle_store": "PRODAJNI PROSTOR",
+    "book_store": "PRODAJNI PROSTOR",
+    "bowling_alley": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "bus_station": "OBMOČJE PROMETA",
+    "cafe": "PRODAJNI PROSTOR",
+    "campground": "NARAVNA POVRŠINA",
+    "car_dealer": "PRODAJNI PROSTOR",
+    "car_rental": "PROSTOR DRUGIH USTANOV",
+    "car_repair": "PROSTOR DRUGIH USTANOV",
+    "car_wash": "PROSTOR DRUGIH USTANOV",
+    "casino": "PROSTOR DRUGIH USTANOV",
+    "cemetery": "PROSTOR ZA VERSKE OBREDE",
+    "church": "PROSTOR ZA VERSKE OBREDE",
+    "city_hall": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "clothing_store": "PRODAJNI PROSTOR",
+    "convenience_store": "PRODAJNI PROSTOR",
+    "courthouse": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "dentist": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "department_store": "PRODAJNI PROSTOR",
+    "doctor": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "drugstore": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "electrician": "PROSTOR DRUGIH USTANOV",
+    "electronics_store": "PRODAJNI PROSTOR",
+    "embassy": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "fire_station": "KOMUNALNI PROSTOR",
+    "florist": "PROSTOR DRUGIH USTANOV",
+    "funeral_home": "PROSTOR ZA VERSKE OBREDE",
+    "furniture_store": "PRODAJNI PROSTOR",
+    "gas_station": "PRODAJNI PROSTOR",
+    "gym": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "hair_care": "PRODAJNI PROSTOR",
+    "hardware_store": "PRODAJNI PROSTOR",
+    "hindu_temple": "PROSTOR ZA VERSKE OBREDE",
+    "home_goods_store": "PRODAJNI PROSTOR",
+    "hospital": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "insurance_agency": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "jewelry_store": "PRODAJNI PROSTOR",
+    "laundry": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "lawyer": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "library": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "light_rail_station": "OBMOČJE PROMETA",
+    "liquor_store": "PRODAJNI PROSTOR",
+    "local_government_office": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "locksmith": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "lodging": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "meal_delivery": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "meal_takeaway": "PRODAJNI PROSTOR",
+    "mosque": "PROSTOR ZA VERSKE OBREDE",
+    "movie_rental": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "movie_theater": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "moving_company": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "museum": "PROSTOR ZA KULTURNO DEJAVNOST",
+    "night_club": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "painter": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "park": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "parking": "OBMOČJE PROMETA",
+    "pet_store": "PRODAJNI PROSTOR",
+    "pharmacy": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "physiotherapist": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "plumber": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "police": "URADNI PROSTORI POLICIJE",
+    "post_office": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "primary_school": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "real_estate_agency": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "restaurant": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "roofing_contractor": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "rv_park": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "school": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "secondary_school": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "shoe_store": "PRODAJNI PROSTOR",
+    "shopping_mall": "PRODAJNI PROSTOR",
+    "spa": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "stadium": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "storage": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "store": "PRODAJNI PROSTOR",
+    "subway_station": "OBMOČJE PROMETA",
+    "supermarket": "PRODAJNI PROSTOR",
+    "synagogue": "PROSTOR ZA VERSKE OBREDE",
+    "taxi_stand": "OBMOČJE PROMETA",
+    "tourist_attraction": "PROSTOR ZA KULTURNO DEJAVNOST",
+    "train_station": "OBMOČJE PROMETA",
+    "transit_station": "OBMOČJE PROMETA",
+    "travel_agency": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "university": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "veterinary_care": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "zoo": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO"
+  },
+  "places": {
+    "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)": 1.0,
+    "PRODAJNI PROSTOR": 0.5965765280600964,
+    "OBMOČJE PROMETA": 0.5403511366985958,
+    "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO": 0.16819006155256191,
+    "PROSTOR ZA DENARNO-FINANČNE STORITVE": 0.07972521369801006,
+    "NARAVNA POVRŠINA": 0.07941887834199171,
+    "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE": 0.07380040208706512,
+    "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE": 0.07175131966311138,
+    "ODPRT ALI ZAPRT SKLADIŠČNI PROSTOR": 0.05294040718616409,
+    "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)": 0.051759928415834766,
+    "GRADBIŠČE": 0.04211522052658183,
+    "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.": 0.028274025488660825,
+    "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)": 0.025460019755382587,
+    "PROSTOR DRUGIH USTANOV": 0.019244201586981074,
+    "VOZILA": 0.01919019310265837,
+    "KOMUNALNI PROSTOR": 0.015194444892087792,
+    "POSEBEJ (ZA)VAROVANO OBMOČJE": 0.007593774725416207,
+    "PROSTOR ZA VERSKE OBREDE": 0.007126867878011617,
+    "PROSTOR ZA KULTURNO DEJAVNOST": 0.003758368869904803,
+    "URADNI PROSTORI POLICIJE": 0.0
+  },
+  "city_region": {
+    "ajdovščina": "goriška",
+    "ankaran": "obalno - kraška",
+    "apače": "pomurska",
+    "beltinci": "pomurska",
+    "benedikt": "podravska",
+    "bistrica ob sotli": "savinjska",
+    "bled": "gorenjska",
+    "bloke": "primorsko - notranjska",
+    "bohinj": "gorenjska",
+    "borovnica": "osrednjeslovenska",
+    "bovec": "goriška",
+    "braslovče": "savinjska",
+    "brda": "goriška",
+    "brezovica": "osrednjeslovenska",
+    "brežice": "posavska",
+    "cankova": "pomurska",
+    "celje": "savinjska",
+    "cerklje na gorenjskem": "gorenjska",
+    "cerknica": "primorsko - notranjska",
+    "cerkno": "goriška",
+    "cerkvenjak": "podravska",
+    "cirkulane": "podravska",
+    "črenšovci": "pomurska",
+    "črna na koroškem": "koroška",
+    "črnomelj": "jugovzhodna slovenija",
+    "destrnik": "podravska",
+    "divača": "obalno - kraška",
+    "dobje": "savinjska",
+    "dobrepolje": "osrednjeslovenska",
+    "dobrna": "savinjska",
+    "dobrova - polhov gradec": "osrednjeslovenska",
+    "dobrovnik": "pomurska",
+    "dol pri ljubljani": "osrednjeslovenska",
+    "dolenjske toplice": "jugovzhodna",
+    "domžale": "osrednjeslovenska",
+    "dornava": "podravska",
+    "dravograd": "koroška",
+    "duplek": "podravska",
+    "gorenja vas - poljane": "gorenjska",
+    "gorišnica": "podravska",
+    "gorje": "gorenjska",
+    "gornja radgona": "pomurska",
+    "gornji grad": "savinjska",
+    "gornji petrovci": "pomurska",
+    "grad": "pomurska",
+    "grosuplje": "osrednjeslovenska",
+    "hajdina": "podravska",
+    "hoče - slivnica": "podravska",
+    "hodoš": "pomurska",
+    "horjul": "osrednjeslovenska",
+    "hrastnik": "zasavska",
+    "hrpelje - kozina": "obalno - kraška",
+    "idrija": "goriška",
+    "ig": "osrednjeslovenska",
+    "ilirska bistrica": "primorsko - notranjska",
+    "ivančna gorica": "osrednjeslovenska",
+    "izola": "obalno - kraška",
+    "jesenice": "gorenjska",
+    "jezersko": "gorenjska",
+    "juršinci": "podravska",
+    "kamnik": "osrednjeslovenska",
+    "kanal ob soči": "goriška",
+    "kidričevo": "podravska",
+    "kobarid": "goriška",
+    "kobilje": "pomurska",
+    "kočevje": "osrednjeslovenska",
+    "komen": "obalno - kraška",
+    "komenda": "osrednjeslovenska",
+    "koper": "obalno - kraška",
+    "kostanjevica na krki": "posavska",
+    "kostel": "jugovzhodna slovenija",
+    "kozje": "savinjska",
+    "kranj": "gorenjska",
+    "kranjska gora": "gorenjska",
+    "križevci": "pomurska",
+    "krško": "posavska",
+    "kungota": "podravska",
+    "kuzma": "pomurska",
+    "laško": "savinjska",
+    "lenart": "podravska",
+    "lendava": "pomurska",
+    "litija": "osrednjeslovenska",
+    "ljubljana": "osrednjeslovenska",
+    "ljubno": "savinjska",
+    "ljutomer": "pomurska",
+    "log - dragomer": "osrednjeslovenska",
+    "logatec": "osrednjeslovenska",
+    "loška dolina": "primorsko - notranjska",
+    "loški potok": "jugovzhodna slovenija",
+    "lovrenc na pohorju": "podravska",
+    "luče": "savinjska",
+    "lukovica": "osrednjeslovenska",
+    "majšperk": "podravska",
+    "makole": "podravska",
+    "maribor": "podravska",
+    "markovci": "podravska",
+    "medvode": "osrednjeslovenska",
+    "mengeš": "osrednjeslovenska",
+    "metlika": "jugovzhodna slovenija",
+    "mežica": "koroška",
+    "miklavž na dravskem polju": "podravska",
+    "miren - kostanjevica": "goriška",
+    "mirna": "jugovzhodna slovenija",
+    "mirna peč": "jugovzhodna slovenija",
+    "mislinja": "koroška",
+    "mokronog - trebelno": "jugovzhodna slovenija",
+    "moravče": "osrednjeslovenska",
+    "moravske toplice": "pomurska",
+    "mozirje": "savinjska",
+    "murska sobota": "pomurska",
+    "muta": "koroška",
+    "naklo": "gorenjska",
+    "nazarje": "savinjska",
+    "nova gorica": "goriška",
+    "novo mesto": "jugovzhodna slovenija",
+    "odranci": "pomurska",
+    "oplotnica": "podravska",
+    "ormož": "podravska",
+    "osilnica": "jugovzhodna slovenija",
+    "pesnica": "podravska",
+    "piran": "obalno - kraška",
+    "pivka": "obalno - kraška",
+    "podčetrtek": "savinjska",
+    "podlehnik": "podravska",
+    "podvelka": "koroška",
+    "poljčane": "podravska",
+    "polzela": "savinjska",
+    "postojna": "primorsko - notranjska",
+    "prebold": "savinjska",
+    "preddvor": "gorenjska",
+    "prevalje": "koroška",
+    "ptuj": "podravska",
+    "puconci": "pomurska",
+    "rače - fram": "podravska",
+    "radeče": "obalno - kraška",
+    "radenci": "pomurska",
+    "radlje ob dravi": "koroška",
+    "radovljica": "gorenjska",
+    "ravne na koroškem": "koroška",
+    "razkrižje": "pomurska",
+    "rečica ob savinji": "savinjska",
+    "renče - vogrsko": "goriška",
+    "ribnica": "jugovzhodna slovenija",
+    "ribnica na pohorju": "koroška",
+    "rogaška slatina": "savinjska",
+    "rogašovci": "pomurska",
+    "rogatec": "savinjska",
+    "ruše": "podravska",
+    "selnica ob dravi": "podravska",
+    "semič": "jugovzhodna slovenija",
+    "sevnica": "posavska",
+    "sežana": "obalno - kraška",
+    "slovenj gradec": "koroška",
+    "slovenska bistrica": "podravska",
+    "slovenske konjice": "savinjska",
+    "sodražica": "jugovzhodna",
+    "solčava": "savinjska",
+    "središče ob dravi": "podravska",
+    "starše": "podravska",
+    "straža": "jugovzhodna slovenija",
+    "sveta ana": "podravska",
+    "sveta trojica v slovenskih goricah": "podravska",
+    "sveti andraž v slovenskih goricah": "podravska",
+    "sveti jurij ob ščavnici": "pomurska",
+    "sveti jurij v slovenskih goricah": "podravska",
+    "sveti tomaž": "podravska",
+    "šalovci": "pomurska",
+    "šempeter - vrtojba": "goriška",
+    "šenčur": "gorenjska",
+    "šentilj": "podravska",
+    "šentjernej": "jugovzhodna slovenija",
+    "šentjur": "savinjska",
+    "šentrupert": "jugovzhodna slovenija",
+    "škocjan": "jugovzhodna slovenija",
+    "škofja loka": "gorenjska",
+    "škofljica": "osrednjeslovenska",
+    "šmarje pri jelšah": "savinjska",
+    "šmarješke toplice": "osrednjeslovenska",
+    "šmartno pri litiji": "osrednjeslovenska",
+    "šmartno ob paki": "savinjska",
+    "šoštanj": "savinjska",
+    "štore": "savinjska",
+    "tabor": "savinjska",
+    "tišina": "pomurska",
+    "tolmin": "goriška",
+    "trbovlje": "zasavska",
+    "trebnje": "jugovzhodna",
+    "trnovska vas": "savinjska",
+    "trzin": "gorenjska",
+    "tržič": "gorenjska",
+    "turnišče": "pomurska",
+    "velenje": "savinjska",
+    "velika polana": "pomurska",
+    "velike lašče": "osrednjeslovenska",
+    "veržej": "pomurska",
+    "videm": "podravska",
+    "vipava": "goriška",
+    "vitanje": "savinjska",
+    "vodice": "osrednjeslovenska",
+    "vojnik": "savinjska",
+    "vransko": "savinjska",
+    "vrhnika": "osrednjeslovenska",
+    "vuzenica": "koroška",
+    "zagorje ob savi": "zasavska",
+    "zavrč": "podravska",
+    "zreče": "savinjska",
+    "žalec": "savinjska",
+    "železniki": "gorenjska",
+    "žetale": "podravska",
+    "žiri": "gorenjska",
+    "žirovnica": "gorenjska",
+    "žužemberk": "jugovzhodna slovenija"
+  }
+}
