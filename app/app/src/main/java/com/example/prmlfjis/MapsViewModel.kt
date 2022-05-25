@@ -6,12 +6,10 @@ import android.content.pm.PackageManager
 import android.graphics.Color
 import android.util.Log
 import androidx.lifecycle.*
-import com.example.prmlfjis.network.GoogleMapsGeocodingResults
-import com.example.prmlfjis.network.GoogleMapsApi
-import com.example.prmlfjis.network.NominatimApi
-import com.example.prmlfjis.network.NominatimJsonData
+import com.example.prmlfjis.network.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.PolygonOptions
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
@@ -175,5 +173,34 @@ class MapsViewModel(application: Application) : AndroidViewModel(application) {
             polygonOptions.add(LatLng(latLng[1].toDouble(), latLng[0].toDouble()))
         }
         return polygonOptions
+    }
+
+    fun searchForRegion(query: String) : String {
+        // check if query is in list of regions
+        for (regija in regije) {
+            if (regija.contains(query)) {
+                return regija
+            }
+        }
+        return ""
+    }
+
+    fun searchForCity(query: String): String {
+        // check if query is in list of obcine
+        for (obcina in obcine) {
+            if (obcina.lowercase().contains(query.lowercase())) {
+                return obcina
+            }
+        }
+        return ""
+    }
+
+    fun searchForPlace(query: String) : LiveData<List<NominatimJsonData>> {
+        val result = MutableLiveData<List<NominatimJsonData>>()
+        // search for the query in the database
+        viewModelScope.launch {
+            result.value = NominatimApi.retrofitService.searchQuery(query="${query} slovenija")
+        }
+        return result
     }
 }

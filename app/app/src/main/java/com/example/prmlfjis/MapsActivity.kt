@@ -1,14 +1,23 @@
 package com.example.prmlfjis
 
+import android.animation.ArgbEvaluator
+import android.animation.ValueAnimator
+import android.app.SearchManager
+import android.content.ComponentName
+import android.content.Context
 import android.graphics.Color
+import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
 import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SearchView
+import androidx.core.content.ContextCompat
 import androidx.core.graphics.ColorUtils
 import androidx.lifecycle.Observer
 import com.example.prmlfjis.databinding.ActivityMapsBinding
@@ -32,7 +41,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
     private lateinit var dialogBuilder: AlertDialog.Builder
     private lateinit var dialog: AlertDialog
 
-    private lateinit var data : JSONObject
+    private lateinit var data: JSONObject
     private lateinit var placeTypeMappings: JSONObject
     private lateinit var placeDangerousness: JSONObject
     private lateinit var regionDangerousness: JSONObject
@@ -53,6 +62,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         binding = ActivityMapsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        configureSearchBar(binding.search)
+
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
@@ -72,6 +83,69 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         cityDangerousness = loadJsonData("city")
         placeTypeMappings = loadJsonData("place_map")
         placeDangerousness = loadJsonData("places")
+    }
+
+
+    private fun configureSearchBar(searchView: SearchView) {
+        searchView.queryHint = "Search for a place"
+
+        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                if (query != null) {
+                    try {
+                        // check if the query is in region or city
+                        val region = viewModel.searchForRegion(query)
+                        if (region != "") {
+                            dataDialog(region, "region")
+                            (getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
+                                currentFocus?.windowToken,
+                                0
+                            )
+                            return true
+                        }
+                        val city = viewModel.searchForCity(query)
+                        if (city != "") {
+                            dataDialog(city, "city")
+                            (getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
+                                currentFocus?.windowToken,
+                                0
+                            )
+                            return true
+                        }
+                        val result = viewModel.searchForPlace(query)
+                            .observe(this@MapsActivity, Observer {
+                                if (it != null) {
+                                    it.forEach { result ->
+                                        if (!setOf("amenity", "building", "shop").contains(result._class)) return@forEach
+                                        // move camera to the result
+                                        mMap.animateCamera(
+                                            CameraUpdateFactory.newLatLngZoom(
+                                                LatLng(
+                                                    result.lat.toDouble(),
+                                                    result.lon.toDouble()
+                                                ),
+                                                15f
+                                            )
+                                        )
+                                        (getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
+                                            currentFocus?.windowToken,
+                                            0
+                                        )
+                                        outputPlaceDangerousnessToMap(LatLng(result.lat.toDouble(), result.lon.toDouble()), result.displayName)
+                                    }
+                                }
+                            })
+                    } catch (e: Exception) {
+                        // handle exception if value not found
+                    }
+                }
+                return true
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                return true
+            }
+        })
     }
 
     /**
@@ -108,44 +182,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         if (mMap.cameraPosition.zoom <= 12) {
             return
         }
-        mMap.clear()
-        val marker = MarkerOptions()
-        marker.position(p0)
-            .title("Danger estimate")
-        Log.d("MARKER", marker.toString())
-        viewModel.getReverseGeocoding(p0)
-            .observe(this) { placeData ->
-
-                var dangerEstimate = 0f
-                var nEstimates = 0f
-                placeData.results.forEach { result: GeocodeResult ->
-                    result.types!!.forEach { placeType ->
-                        dangerEstimate += calculatePlaceTypeDanger(placeType)
-                        nEstimates++
-                    }
-                }
-                dangerEstimate /= nEstimates
-                dangerEstimate *= 100
-                val city: String = placeData.results.find {
-                    it.addressComponents?.find { it ->
-                        it.types!!.contains("postal_town")
-                    } != null
-                }?.addressComponents?.find { it.types!!.contains("postal_town")}!!.longName!!
-                val cityRegionMapping: String? = loadJsonData("city_region").getNullableString(city.lowercase())
-                if (cityRegionMapping != null) {
-                    val regionDanger: Float = regionDangerousness.getJSONObject(cityRegionMapping)
-                        .getDouble("data_danger_score").toFloat()
-                    dangerEstimate += regionDanger
-                    dangerEstimate /= 2
-                    Log.d("MAPPED $city to ", "$cityRegionMapping and now calculating danger with region info added!")
-                }
-                dangerEstimate *= 100
-                dangerEstimate /= 130
-
-                marker.snippet("Estimated danger: ${dangerEstimate.toInt()}%")
-                val iWindow: Marker? = mMap.addMarker(marker)
-                iWindow?.showInfoWindow()
-            }
+        outputPlaceDangerousnessToMap(p0)
     }
 
     private fun calculatePlaceTypeDanger(placeType: String): Float {
@@ -184,8 +221,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
             val dataName = outline.first
             val observingData: JSONObject = loadJsonData(observingScope, dataName)
             val dangerScore = makeDangerScore(observingData)
-            val greenColor = if (observingScope == "region") GREEN - (0x33 shl 24) else GREEN - (0x66 shl 24)
-            val redColor = if (observingScope == "region") RED - (0x33 shl 24) else RED - (0x66 shl 24)
+            val greenColor =
+                if (observingScope == "region") GREEN - (0x33 shl 24) else GREEN - (0x66 shl 24)
+            val redColor =
+                if (observingScope == "region") RED - (0x33 shl 24) else RED - (0x66 shl 24)
             outline.second.fillColor(
                 ColorUtils.blendARGB(
                     greenColor,
@@ -216,6 +255,30 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
 
         try {
             setDialogData(dataPopupView, region)
+            dialog.show()
+        } catch (e: Exception) {
+            Snackbar.make(
+                binding.root,
+                "No data available for this region",
+                Snackbar.LENGTH_LONG
+            ).show()
+        }
+    }
+
+    private fun dataDialog(region: String, observingPlace: String) {
+        dialogBuilder = AlertDialog.Builder(this)
+        dialogBuilder.setTitle(region.uppercase())
+        val dataPopupView: View = layoutInflater.inflate(R.layout.data_dialog, null)
+
+        dataPopupView.findViewById<Button>(R.id.buttonClose).setOnClickListener {
+            dialog.dismiss()
+        }
+
+        dialogBuilder.setView(dataPopupView)
+        dialog = dialogBuilder.create()
+
+        try {
+            setDialogData(dataPopupView, region, observingPlace)
             dialog.show()
         } catch (e: Exception) {
             Snackbar.make(
@@ -266,7 +329,41 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         }
         tableLayout.addView(row)
 
-        val dangerScore = makeDangerScore(observingData)  // normalized with 150 for the value to have more meaning
+        val dangerScore =
+            makeDangerScore(observingData)  // normalized with 150 for the value to have more meaning
+        dataPopupView.findViewById<ProgressBar>(R.id.progressBar).progress = dangerScore
+//        dataPopupView.resources.getString(R.string.danger_score, dangerScore)
+//        ABOVE WAY NOT WORKING FOR SOME REASON??
+        dataPopupView.findViewById<TextView>(R.id.textDangerScore).text =
+            "Danger score: $dangerScore%"
+    }
+
+    private fun setDialogData(dataPopupView: View, dataName: String, observingPlace: String) {
+        Log.d("CLICKED:", dataName.lowercase())
+        val observingData: JSONObject = loadJsonData(observingPlace, dataName)
+
+        // set data
+        val tableLayout = dataPopupView.findViewById<TableLayout>(R.id.dataCardsTableLayout)
+        tableLayout.removeAllViews()
+        val dataNames = observingData.getJSONArray("data_names")
+        val dataValues = observingData.getJSONArray("data_values")
+
+        var row = createNewDialogDataRow()
+        for (i in 0 until dataNames.length()) {
+            if (row.childCount >= 2) {
+                tableLayout.addView(row)
+                row = createNewDialogDataRow()
+            }
+            // create data_card.xml
+            val dataCardView = layoutInflater.inflate(R.layout.data_card, null)
+            dataCardView.findViewById<TextView>(R.id.dataCardName).text = dataNames.getString(i)
+            dataCardView.findViewById<TextView>(R.id.dataCardValue).text = dataValues.getString(i)
+            row.addView(dataCardView)
+        }
+        tableLayout.addView(row)
+
+        val dangerScore =
+            makeDangerScore(observingData)  // normalized with 150 for the value to have more meaning
         dataPopupView.findViewById<ProgressBar>(R.id.progressBar).progress = dangerScore
 //        dataPopupView.resources.getString(R.string.danger_score, dangerScore)
 //        ABOVE WAY NOT WORKING FOR SOME REASON??
@@ -287,11 +384,101 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
         row.gravity = Gravity.CENTER
         return row
     }
+
+
+    private fun outputPlaceDangerousnessToMap(p0: LatLng) {
+        mMap.clear()
+        val marker = MarkerOptions()
+        marker.position(p0)
+            .title("Danger estimate")
+        Log.d("MARKER", marker.toString())
+        viewModel.getReverseGeocoding(p0)
+            .observe(this) { placeData ->
+                var dangerEstimate = 0f
+                var nEstimates = 0f
+                placeData.results.forEach { result: GeocodeResult ->
+                    result.types!!.forEach { placeType ->
+                        dangerEstimate += calculatePlaceTypeDanger(placeType)
+                        nEstimates++
+                    }
+                }
+                dangerEstimate /= nEstimates
+                dangerEstimate *= 100
+                val city: String = placeData.results.find {
+                    it.addressComponents?.find { it ->
+                        it.types!!.contains("postal_town")
+                    } != null
+                }?.addressComponents?.find { it.types!!.contains("postal_town") }!!.longName!!
+                val cityRegionMapping: String? =
+                    loadJsonData("city_region").getNullableString(city.lowercase())
+                if (cityRegionMapping != null) {
+                    val regionDanger: Float = regionDangerousness.getJSONObject(cityRegionMapping)
+                        .getDouble("data_danger_score").toFloat()
+                    dangerEstimate += regionDanger
+                    dangerEstimate /= 2
+                    Log.d(
+                        "MAPPED $city to ",
+                        "$cityRegionMapping and now calculating danger with region info added!"
+                    )
+                }
+                dangerEstimate *= 100
+                dangerEstimate /= 130
+
+                marker.snippet("Estimated danger: ${dangerEstimate.toInt()}%")
+                val iWindow: Marker? = mMap.addMarker(marker)
+                iWindow?.showInfoWindow()
+            }
+    }
+
+    private fun outputPlaceDangerousnessToMap(p0: LatLng, name: String) {
+        mMap.clear()
+        val marker = MarkerOptions()
+        marker.position(p0)
+            .title("Danger estimate of\n${name.split(",")[0]}")
+        Log.d("MARKER", marker.toString())
+        viewModel.getReverseGeocoding(p0)
+            .observe(this) { placeData ->
+                var dangerEstimate = 0f
+                var nEstimates = 0f
+                placeData.results.forEach { result: GeocodeResult ->
+                    result.types!!.forEach { placeType ->
+                        dangerEstimate += calculatePlaceTypeDanger(placeType)
+                        nEstimates++
+                    }
+                }
+                dangerEstimate /= nEstimates
+                dangerEstimate *= 100
+                val city: String = placeData.results.find {
+                    it.addressComponents?.find { it ->
+                        it.types!!.contains("postal_town")
+                    } != null
+                }?.addressComponents?.find { it.types!!.contains("postal_town") }!!.longName!!
+                val cityRegionMapping: String? =
+                    loadJsonData("city_region").getNullableString(city.lowercase())
+                if (cityRegionMapping != null) {
+                    val regionDanger: Float = regionDangerousness.getJSONObject(cityRegionMapping)
+                        .getDouble("data_danger_score").toFloat()
+                    dangerEstimate += regionDanger
+                    dangerEstimate /= 2
+                    Log.d(
+                        "MAPPED $city to ",
+                        "$cityRegionMapping and now calculating danger with region info added!"
+                    )
+                }
+                dangerEstimate *= 100
+                dangerEstimate /= 130
+
+                marker.snippet("Estimated danger: ${dangerEstimate.toInt()}%")
+                val iWindow: Marker? = mMap.addMarker(marker)
+                iWindow?.showInfoWindow()
+            }
+    }
 }
 
-fun JSONObject.getNullableString(name: String) : String? {
+fun JSONObject.getNullableString(name: String): String? {
     if (has(name) && !isNull(name)) {
         return getString(name)
     }
     return null
 }
+

@@ -3,13 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.3455" />
         <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/drawable/danger_progressbar.xml" value="0.3455" />
         <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/drawable/data_card_style.xml" value="0.3455" />
         <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/drawable/data_style.xml" value="0.3455" />
+        <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3455" />
+        <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/drawable/ic_search.xml" value="0.3455" />
+        <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/drawable/search_bar_background.xml" value="0.3455" />
         <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/layout/activity_maps.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/layout/crime_data.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/layout/data_card.xml" value="0.33" />
         <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/layout/data_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mark/Desktop/Sola/letnik2/semester2/PR/PR21mlfjis/app/app/src/main/res/layout/search_bar.xml" value="0.18072916666666666" />
         <entry key="app/src/main/res/layout/activity_maps.xml" value="0.18885869565217392" />
         <entry key="app/src/main/res/layout/data_dialog.xml" value="0.17708333333333334" />
       </map>
