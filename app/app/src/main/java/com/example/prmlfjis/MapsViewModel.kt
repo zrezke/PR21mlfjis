@@ -178,7 +178,7 @@ class MapsViewModel(application: Application) : AndroidViewModel(application) {
     fun searchForRegion(query: String) : String {
         // check if query is in list of regions
         for (regija in regije) {
-            if (regija.contains(query)) {
+            if (regija.lowercase().contains(query.lowercase())) {
                 return regija
             }
         }

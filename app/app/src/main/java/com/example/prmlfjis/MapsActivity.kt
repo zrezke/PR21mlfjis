@@ -8,6 +8,7 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.LayerDrawable
 import android.os.Bundle
+import android.text.Html
 import android.util.Log
 import android.view.Gravity
 import android.view.View
@@ -98,7 +99,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
             override fun onQueryTextSubmit(query: String?): Boolean {
 
 
-
                 if (query != null) {
                     try {
                         // check if the query is in region or city
@@ -123,8 +123,13 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
                         val result = viewModel.searchForPlace(query)
                             .observe(this@MapsActivity, Observer {
                                 if (it != null) {
+                                    var found = false
                                     it.forEach { result ->
-                                        if (!setOf("amenity", "building", "shop").contains(result._class)) return@forEach
+                                        if (setOf(
+                                                "boundry"
+                                            ).contains(result._class)
+                                        ) return@forEach
+                                        found = true
                                         resultForMarker = result
                                         // move camera to the result
                                         mMap.animateCamera(
@@ -134,16 +139,29 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
                                                     result.lon.toDouble()
                                                 ),
                                                 15f
-                                            ), 3000, this)
-                                        (getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
-                                            currentFocus?.windowToken,
-                                            0
+                                            ), 3000, this
                                         )
+                                    }
+                                    (getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
+                                        currentFocus?.windowToken,
+                                        0
+                                    )
+                                    if (!found) {
+                                        Toast.makeText(
+                                            this@MapsActivity,
+                                            "No results found",
+                                            Toast.LENGTH_LONG
+                                        ).show()
                                     }
                                 }
                             })
                     } catch (e: Exception) {
-                        // handle exception if value not found
+                        (getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
+                            currentFocus?.windowToken,
+                            0
+                        )
+                        Toast.makeText(this@MapsActivity, "No results found", Toast.LENGTH_SHORT)
+                            .show()
                     }
                 }
                 return true
@@ -157,7 +175,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnPolygo
             }
 
             override fun onFinish() {
-                outputPlaceDangerousnessToMap(LatLng(resultForMarker.lat.toDouble(), resultForMarker.lon.toDouble()), resultForMarker.displayName)
+                outputPlaceDangerousnessToMap(
+                    LatLng(
+                        resultForMarker.lat.toDouble(),
+                        resultForMarker.lon.toDouble()
+                    ), resultForMarker.displayName
+                )
             }
         })
     }
