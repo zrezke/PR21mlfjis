@@ -33,17 +33,6 @@
                 "Tatvina"
             ]
         },
-        "spodnjeposavska": {
-            "data_danger_score": 32.107,
-            "data_names": [
-                "Najpogostejši kriminal",
-                "Najpogostejši kriminal"
-            ],
-            "data_values": [
-                "Tatvina",
-                "Tatvina"
-            ]
-        },
         "goriška": {
             "data_danger_score": 29.080000000000002,
             "data_names": [
@@ -123,6 +112,17 @@
         },
         "primorsko - notranjska": {
             "data_danger_score": 24.529,
+            "data_names": [
+                "Najpogostejši kriminal",
+                "Najpogostejši kriminal"
+            ],
+            "data_values": [
+                "Tatvina",
+                "Tatvina"
+            ]
+        },
+        "posavska": {
+            "data_danger_score": 32.107,
             "data_names": [
                 "Najpogostejši kriminal",
                 "Najpogostejši kriminal"
