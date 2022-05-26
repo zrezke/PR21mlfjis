@@ -1,0 +1,7089 @@
+{
+  "regions": {
+    "osrednjeslovenska": {
+      "data_danger_score": 67.88300000000001,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "podravska": {
+      "data_danger_score": 36.506,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "savinjska": {
+      "data_danger_score": 32.836,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "goriška": {
+      "data_danger_score": 29.080000000000002,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "pomurska": {
+      "data_danger_score": 27.201999999999998,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "gorenjska": {
+      "data_danger_score": 26.566000000000003,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "koroška": {
+      "data_danger_score": 16.709,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "zasavska": {
+      "data_danger_score": 15.922,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "obalno - kraška": {
+      "data_danger_score": 46.315,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "jugovzhodna slovenija": {
+      "data_danger_score": 42.678,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "primorsko - notranjska": {
+      "data_danger_score": 24.529,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    },
+    "posavska": {
+      "data_danger_score": 32.107,
+      "data_names": [
+        "Najpogostejši kriminal",
+        "Najpogostejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina",
+        "Tatvina"
+      ]
+    }
+  },
+  "cities": {
+    "novo mesto": {
+      "data_danger_score": 104.449,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Grožnja"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Tatvina"
+      ]
+    },
+    "ljubljana": {
+      "data_danger_score": 104.18400000000001,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Kršitev temeljnih pravic delavcev"
+      ]
+    },
+    "grosuplje": {
+      "data_danger_score": 88.313,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Prikrivanje"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Grožnja"
+      ]
+    },
+    "murska sobota": {
+      "data_danger_score": 85.42699999999999,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Odvzem mladoletne osebe"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Goljufija"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "domžale": {
+      "data_danger_score": 81.167,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Odvzem mladoletne osebe"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ponarejanje listin"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ]
+    },
+    "trebnje": {
+      "data_danger_score": 74.026,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Lahka telesna poškodba"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ]
+    },
+    "mozirje": {
+      "data_danger_score": 72.99900000000001,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Velika tatvina"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ]
+    },
+    "pesnica": {
+      "data_danger_score": 71.907,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Nasilje v družini"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Trgovina z ljudmi"
+      ]
+    },
+    "lenart": {
+      "data_danger_score": 71.296,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Nasilje v družini"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ponarejanje listin"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Nasilje v družini"
+      ]
+    },
+    "kočevje": {
+      "data_danger_score": 70.621,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Velika tatvina"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Tatvina"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Tatvina"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Tatvina"
+      ]
+    },
+    "piran": {
+      "data_danger_score": 69.71300000000001,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponarejanje listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Tatvina"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Tatvina"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "ptuj": {
+      "data_danger_score": 69.05799999999999,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "maribor": {
+      "data_danger_score": 68.047,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ]
+    },
+    "nova gorica": {
+      "data_danger_score": 67.31899999999999,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ]
+    },
+    "sežana": {
+      "data_danger_score": 66.39500000000001,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Grožnja"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Grožnja"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Overitev lažne vsebine"
+      ]
+    },
+    "gornja radgona": {
+      "data_danger_score": 65.81700000000001,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Lahka telesna poškodba"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Lahka telesna poškodba"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Nasilje v družini"
+      ]
+    },
+    "celje": {
+      "data_danger_score": 65.036,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Tatvina"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ]
+    },
+    "radovljica": {
+      "data_danger_score": 59.059,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Velika tatvina"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Tatvina"
+      ]
+    },
+    "šmarje pri jelšah": {
+      "data_danger_score": 58.357000000000006,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Nasilje v družini"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "žalec": {
+      "data_danger_score": 57.562000000000005,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ponarejanje listin"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ]
+    },
+    "črnomelj": {
+      "data_danger_score": 55.813,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neplačevanje preživnine"
+      ]
+    },
+    "postojna": {
+      "data_danger_score": 53.335,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Goljufija"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Prikazovanje, izdelava, posest in posredovanje pornografskega gradiva"
+      ]
+    },
+    "koper": {
+      "data_danger_score": 52.574,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Tatvina"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "lendava": {
+      "data_danger_score": 50.778999999999996,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponarejanje listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ponarejanje listin"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "krško": {
+      "data_danger_score": 50.15500000000001,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Grožnja"
+      ]
+    },
+    "kranj": {
+      "data_danger_score": 49.197,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "slovenske konjice": {
+      "data_danger_score": 47.033,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Goljufija"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Goljufija"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ponarejanje listin"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "velenje": {
+      "data_danger_score": 46.760000000000005,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ]
+    },
+    "jesenice": {
+      "data_danger_score": 43.28,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Grožnja"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Grožnja"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Poškodovanje tuje stvari"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "slovenska bistrica": {
+      "data_danger_score": 41.581,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Grožnja"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Grožnja"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Grožnja"
+      ]
+    },
+    "kamnik": {
+      "data_danger_score": 41.446,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Poslovna goljufija"
+      ]
+    },
+    "vrhnika": {
+      "data_danger_score": 41.018,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponarejanje listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ponarejanje listin"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "poneverba in neupravi�ena uporaba tujega premo�enja"
+      ]
+    },
+    "metlika": {
+      "data_danger_score": 38.797,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "logatec": {
+      "data_danger_score": 38.191,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ponarejanje listin"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ponarejanje listin"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Goljufija"
+      ]
+    },
+    "ravne na koroškem": {
+      "data_danger_score": 37.735,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Tatvina"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ]
+    },
+    "laško": {
+      "data_danger_score": 37.406,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Nasilje v družini"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Odvzem mladoletne osebe"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Odvzem mladoletne osebe"
+      ]
+    },
+    "izola": {
+      "data_danger_score": 36.101,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Tatvina"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Napad na informacijski sistem"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Tatvina"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "ribnica": {
+      "data_danger_score": 35.038000000000004,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Goljufija"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Goljufija"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Nasilje v družini"
+      ]
+    },
+    "tolmin": {
+      "data_danger_score": 34.655,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Velika tatvina"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Grožnja"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Grožnja"
+      ]
+    },
+    "litija": {
+      "data_danger_score": 33.513,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ]
+    },
+    "ruše": {
+      "data_danger_score": 33.43,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Nasilje v družini"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Nasilje v družini"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Nasilje v družini"
+      ]
+    },
+    "radlje ob dravi": {
+      "data_danger_score": 32.756,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Nasilje v družini"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ]
+    },
+    "brežice": {
+      "data_danger_score": 31.358000000000004,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponarejanje listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ponarejanje listin"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ponarejanje listin"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "ajdovščina": {
+      "data_danger_score": 30.791,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Grožnja"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ]
+    },
+    "ljutomer": {
+      "data_danger_score": 27.966,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Prepovedano prehajanje meje ali ozemlja države"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Prepovedano prehajanje meje ali ozemlja države"
+      ]
+    },
+    "škofja loka": {
+      "data_danger_score": 25.228,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponareditev ali uničenje poslovnih listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ponarejanje listin"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ]
+    },
+    "trbovlje": {
+      "data_danger_score": 24.677,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Lahka telesna poškodba"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Grožnja"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Grožnja"
+      ]
+    },
+    "idrija": {
+      "data_danger_score": 24.641,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Grožnja"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Nasilje v družini"
+      ]
+    },
+    "slovenj gradec": {
+      "data_danger_score": 23.637,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Grožnja"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Nasilje v družini"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "cerknica": {
+      "data_danger_score": 23.162,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ogrožanje varnosti pri delu"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Prepovedano prehajanje meje ali ozemlja države"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Prepovedano prehajanje meje ali ozemlja države"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "sevnica": {
+      "data_danger_score": 22.747,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Kršitev temeljnih pravic delavcev"
+      ]
+    },
+    "šentjur": {
+      "data_danger_score": 22.485,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "hrastnik": {
+      "data_danger_score": 18.332,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Lahka telesna poškodba"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Lahka telesna poškodba"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Nasilje v družini"
+      ]
+    },
+    "zagorje ob savi": {
+      "data_danger_score": 18.123,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Grožnja"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Velika tatvina"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Tatvina"
+      ]
+    },
+    "ormož": {
+      "data_danger_score": 17.378,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Grožnja"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Grožnja"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ]
+    },
+    "tržič": {
+      "data_danger_score": 16.699,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Neupravičena proizvodnja in promet s prepovedanimi drogami, nedovoljenimi snovmi v športu in predhod"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Kršitev temeljnih pravic delavcev"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Nasilje v družini"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Lahka telesna poškodba"
+      ]
+    },
+    "dravograd": {
+      "data_danger_score": 16.387,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Nasilje v družini"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Grožnja"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Zanemarjanje mladoletne osebe in surovo ravnanje"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Nasilje v družini"
+      ]
+    },
+    "ilirska bistrica": {
+      "data_danger_score": 15.777,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ponarejanje listin"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Prepovedano prehajanje meje ali ozemlja države"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Prepovedano prehajanje meje ali ozemlja države"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ponarejanje listin"
+      ]
+    },
+    "rečica ob savinji": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "hrpelje - kozina": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šentrupert": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "mislinja": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "jezersko": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šmartno ob paki": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šmartno pri litiji": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "ivančna gorica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "sveti tomaž": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "ig": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šmarješke toplice": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "hodoš": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "hoče - slivnica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "horjul": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kidričevo": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "hajdina": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šoštanj": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "juršinci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kanal ob soči": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "gornji petrovci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šentilj": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šentjernej": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kuzma": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "križevci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "bovec": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šenčur": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kobarid": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "grad": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "škocjan": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kozje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kostel": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kostanjevica na krki": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "škofljica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "komenda": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "komen": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kobilje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "brda": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "bohinj": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "gorje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "gornji grad": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "borovnica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "žetale": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "cankova": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "žiri": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "brezovica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kranjska gora": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "braslovče": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "kungota": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "bloke": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "žužemberk": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "sveta ana": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "beltinci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "apače": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "ankaran": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "cerklje na gorenjskem": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "cerkno": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "cerkvenjak": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "cirkulane": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šalovci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "gorišnica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "gorenja vas - poljane": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "duplek": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "dornava": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "železniki": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "dolenjske toplice": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "dol pri ljubljani": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "dobrovnik": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "dobrova - polhov gradec": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "dobrna": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "dobrepolje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "dobje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "divača": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "destrnik": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "sveta trojica v slovenskih goricah": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "benedikt": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "šempeter - vrtojba": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "črenšovci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "prevalje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "renče - vogrsko": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "rače - fram": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "razkrižje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "velika polana": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "velike lašče": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "radeče": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "puconci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "ribnica na pohorju": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "veržej": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "radenci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "prebold": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "črna na koroškem": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "videm": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "polzela": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "poljčane": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "turnišče": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "rogatec": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "podvelka": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "solčava": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "sveti jurij ob ščavnici": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "sveti andraž v slovenskih goricah": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "preddvor": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "bistrica ob sotli": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "starše": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "bled": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "zreče": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "sodražica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "rogaška slatina": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "tabor": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "tišina": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "trnovska vas": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "trzin": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "semič": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "selnica ob dravi": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "rogašovci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "podčetrtek": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "podlehnik": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "ljubno": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "majšperk": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "mežica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "vuzenica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "mengeš": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "medvode": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "markovci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "zavrč": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "makole": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "luče": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "miren - kostanjevica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "straža": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "središče ob dravi": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "lukovica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "loški potok": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "oplotnica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "log - dragomer": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "sveti jurij v slovenskih goricah": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "miklavž na dravskem polju": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "mirna": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "pivka": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "nazarje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "vipava": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "vitanje": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "osilnica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "lovrenc na pohorju": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "vodice": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "loška dolina": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "vojnik": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "naklo": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "mirna peč": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "muta": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "vransko": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "žirovnica": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "moravče": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "moravske toplice": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "mokronog - trebelno": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "odranci": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    },
+    "štore": {
+      "data_danger_score": 0.0,
+      "data_names": [
+        "2018: Najpogostejši kriminal",
+        "2018: Najnevarnejši kriminal"
+      ],
+      "data_values": [
+        "Ni podatka"
+      ],
+      "data_names1": [
+        "2019: Najpogostejši kriminal",
+        "2019: Najnevarnejši kriminal"
+      ],
+      "data_values1": [
+        "Ni podatka"
+      ],
+      "data_names2": [
+        "2020: Najpogostejši kriminal",
+        "2020: Najnevarnejši kriminal"
+      ],
+      "data_values2": [
+        "Ni podatka"
+      ],
+      "data_names3": [
+        "2021: Najpogostejši kriminal",
+        "2021: Najnevarnejši kriminal"
+      ],
+      "data_values3": [
+        "Ni podatka"
+      ]
+    }
+  },
+  "place_map": {
+    "administrative_area_level_1": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_2": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_3": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_4": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_5": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_6": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "administrative_area_level_7": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "archipelago": "NARAVNA POVRŠINA",
+    "colloquial_area": "PROSTOR DRUGIH USTANOV",
+    "continent": "NARAVNA POVRŠINA",
+    "country": "NARAVNA POVRŠINA",
+    "establishment": "PROSTOR DRUGIH USTANOV",
+    "finance": "PROSTOR ZA DENARNO-FINANČNE STORITVE",
+    "floor": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "food": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "general_contractor": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "geocode": "NARAVNA POVRŠINA",
+    "health": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "intersection": "OBMOČJE PROMETA",
+    "landmark": "NARAVNA POVRŠINA",
+    "locality": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "natural_feature": "NARAVNA POVRŠINA",
+    "neighborhood": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "place_of_worship": "PROSTOR ZA VERSKE OBREDE",
+    "plus_code": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "point_of_interest": "PROSTOR ZA KULTURNO DEJAVNOST",
+    "political": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "post_box": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "postal_code": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "postal_code_prefix": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "postal_code_suffix": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "postal_town": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "premise": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "room": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "route": "OBMOČJE PROMETA",
+    "street_address": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "street_number": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "sublocality": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "sublocality_level_1": "OBMOČJE PROMETA",
+    "sublocality_level_2": "OBMOČJE PROMETA",
+    "sublocality_level_3": "OBMOČJE PROMETA",
+    "sublocality_level_4": "OBMOČJE PROMETA",
+    "sublocality_level_5": "OBMOČJE PROMETA",
+    "subpremise": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "town_square": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "accounting": "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE",
+    "airport": "OBMOČJE PROMETA",
+    "amusement_park": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "aquarium": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "art_gallery": "PROSTOR ZA KULTURNO DEJAVNOST",
+    "atm": "PROSTOR ZA DENARNO-FINANČNE STORITVE",
+    "bakery": "PRODAJNI PROSTOR",
+    "bank": "PROSTOR ZA DENARNO-FINANČNE STORITVE",
+    "bar": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "beauty_salon": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "bicycle_store": "PRODAJNI PROSTOR",
+    "book_store": "PRODAJNI PROSTOR",
+    "bowling_alley": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "bus_station": "OBMOČJE PROMETA",
+    "cafe": "PRODAJNI PROSTOR",
+    "campground": "NARAVNA POVRŠINA",
+    "car_dealer": "PRODAJNI PROSTOR",
+    "car_rental": "PROSTOR DRUGIH USTANOV",
+    "car_repair": "PROSTOR DRUGIH USTANOV",
+    "car_wash": "PROSTOR DRUGIH USTANOV",
+    "casino": "PROSTOR DRUGIH USTANOV",
+    "cemetery": "PROSTOR ZA VERSKE OBREDE",
+    "church": "PROSTOR ZA VERSKE OBREDE",
+    "city_hall": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "clothing_store": "PRODAJNI PROSTOR",
+    "convenience_store": "PRODAJNI PROSTOR",
+    "courthouse": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "dentist": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "department_store": "PRODAJNI PROSTOR",
+    "doctor": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "drugstore": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "electrician": "PROSTOR DRUGIH USTANOV",
+    "electronics_store": "PRODAJNI PROSTOR",
+    "embassy": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "fire_station": "KOMUNALNI PROSTOR",
+    "florist": "PROSTOR DRUGIH USTANOV",
+    "funeral_home": "PROSTOR ZA VERSKE OBREDE",
+    "furniture_store": "PRODAJNI PROSTOR",
+    "gas_station": "PRODAJNI PROSTOR",
+    "gym": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "hair_care": "PRODAJNI PROSTOR",
+    "hardware_store": "PRODAJNI PROSTOR",
+    "hindu_temple": "PROSTOR ZA VERSKE OBREDE",
+    "home_goods_store": "PRODAJNI PROSTOR",
+    "hospital": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "insurance_agency": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "jewelry_store": "PRODAJNI PROSTOR",
+    "laundry": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "lawyer": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "library": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "light_rail_station": "OBMOČJE PROMETA",
+    "liquor_store": "PRODAJNI PROSTOR",
+    "local_government_office": "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.",
+    "locksmith": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "lodging": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "meal_delivery": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "meal_takeaway": "PRODAJNI PROSTOR",
+    "mosque": "PROSTOR ZA VERSKE OBREDE",
+    "movie_rental": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "movie_theater": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "moving_company": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "museum": "PROSTOR ZA KULTURNO DEJAVNOST",
+    "night_club": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "painter": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "park": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "parking": "OBMOČJE PROMETA",
+    "pet_store": "PRODAJNI PROSTOR",
+    "pharmacy": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "physiotherapist": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "plumber": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "police": "URADNI PROSTORI POLICIJE",
+    "post_office": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "primary_school": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "real_estate_agency": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "restaurant": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "roofing_contractor": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "rv_park": "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)",
+    "school": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "secondary_school": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "shoe_store": "PRODAJNI PROSTOR",
+    "shopping_mall": "PRODAJNI PROSTOR",
+    "spa": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "stadium": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO",
+    "storage": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "store": "PRODAJNI PROSTOR",
+    "subway_station": "OBMOČJE PROMETA",
+    "supermarket": "PRODAJNI PROSTOR",
+    "synagogue": "PROSTOR ZA VERSKE OBREDE",
+    "taxi_stand": "OBMOČJE PROMETA",
+    "tourist_attraction": "PROSTOR ZA KULTURNO DEJAVNOST",
+    "train_station": "OBMOČJE PROMETA",
+    "transit_station": "OBMOČJE PROMETA",
+    "travel_agency": "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE",
+    "university": "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)",
+    "veterinary_care": "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)",
+    "zoo": "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO"
+  },
+  "places": {
+    "NASTANITVENI PROSTOR Z NEPOSREDNO OKOLICO (DVORIŠČE, VRT IPD.)": 1.0,
+    "PRODAJNI PROSTOR": 0.5965765280600964,
+    "OBMOČJE PROMETA": 0.5403511366985958,
+    "PROSTOR ZA ŠPORT, REKREACIJO, ZABAVO": 0.16819006155256191,
+    "PROSTOR ZA DENARNO-FINANČNE STORITVE": 0.07972521369801006,
+    "NARAVNA POVRŠINA": 0.07941887834199171,
+    "UPRAVNO-ADMINISTRATIVNI PROSTOR PODJETJA ALI DRUGE ORGANIZACIJE": 0.07380040208706512,
+    "PROSTOR ZA INDUSTRIJSKO, KMETIJSKO ALI OBRTNO PROIZVODNJO IN STORITVE": 0.07175131966311138,
+    "ODPRT ALI ZAPRT SKLADIŠČNI PROSTOR": 0.05294040718616409,
+    "PROST. ZA VZGOJNOVAR. IN IZOBR. DEJ. Z NEPOS. OKOL.(DVORIŠČE,ŠOL.IGR.)": 0.051759928415834766,
+    "GRADBIŠČE": 0.04211522052658183,
+    "PROSTOR DRŽ. USTANOVE, ORGANA LOKALNE SKUP., POLIT. ALI INTERES. ORG.": 0.028274025488660825,
+    "PROSTOR ZA ZDRAVSTVENE STORITVE Z NEPOSRED. OKOLICO (DVORIŠČE IPD.)": 0.025460019755382587,
+    "PROSTOR DRUGIH USTANOV": 0.019244201586981074,
+    "VOZILA": 0.01919019310265837,
+    "KOMUNALNI PROSTOR": 0.015194444892087792,
+    "POSEBEJ (ZA)VAROVANO OBMOČJE": 0.007593774725416207,
+    "PROSTOR ZA VERSKE OBREDE": 0.007126867878011617,
+    "PROSTOR ZA KULTURNO DEJAVNOST": 0.003758368869904803,
+    "URADNI PROSTORI POLICIJE": 0.0
+  },
+  "city_region": {
+    "ajdovščina": "goriška",
+    "ankaran": "obalno - kraška",
+    "apače": "pomurska",
+    "beltinci": "pomurska",
+    "benedikt": "podravska",
+    "bistrica ob sotli": "savinjska",
+    "bled": "gorenjska",
+    "bloke": "primorsko - notranjska",
+    "bohinj": "gorenjska",
+    "borovnica": "osrednjeslovenska",
+    "bovec": "goriška",
+    "braslovče": "savinjska",
+    "brda": "goriška",
+    "brezovica": "osrednjeslovenska",
+    "brežice": "posavska",
+    "cankova": "pomurska",
+    "celje": "savinjska",
+    "cerklje na gorenjskem": "gorenjska",
+    "cerknica": "primorsko - notranjska",
+    "cerkno": "goriška",
+    "cerkvenjak": "podravska",
+    "cirkulane": "podravska",
+    "črenšovci": "pomurska",
+    "črna na koroškem": "koroška",
+    "črnomelj": "jugovzhodna slovenija",
+    "destrnik": "podravska",
+    "divača": "obalno - kraška",
+    "dobje": "savinjska",
+    "dobrepolje": "osrednjeslovenska",
+    "dobrna": "savinjska",
+    "dobrova - polhov gradec": "osrednjeslovenska",
+    "dobrovnik": "pomurska",
+    "dol pri ljubljani": "osrednjeslovenska",
+    "dolenjske toplice": "jugovzhodna",
+    "domžale": "osrednjeslovenska",
+    "dornava": "podravska",
+    "dravograd": "koroška",
+    "duplek": "podravska",
+    "gorenja vas - poljane": "gorenjska",
+    "gorišnica": "podravska",
+    "gorje": "gorenjska",
+    "gornja radgona": "pomurska",
+    "gornji grad": "savinjska",
+    "gornji petrovci": "pomurska",
+    "grad": "pomurska",
+    "grosuplje": "osrednjeslovenska",
+    "hajdina": "podravska",
+    "hoče - slivnica": "podravska",
+    "hodoš": "pomurska",
+    "horjul": "osrednjeslovenska",
+    "hrastnik": "zasavska",
+    "hrpelje - kozina": "obalno - kraška",
+    "idrija": "goriška",
+    "ig": "osrednjeslovenska",
+    "ilirska bistrica": "primorsko - notranjska",
+    "ivančna gorica": "osrednjeslovenska",
+    "izola": "obalno - kraška",
+    "jesenice": "gorenjska",
+    "jezersko": "gorenjska",
+    "juršinci": "podravska",
+    "kamnik": "osrednjeslovenska",
+    "kanal ob soči": "goriška",
+    "kidričevo": "podravska",
+    "kobarid": "goriška",
+    "kobilje": "pomurska",
+    "kočevje": "osrednjeslovenska",
+    "komen": "obalno - kraška",
+    "komenda": "osrednjeslovenska",
+    "koper": "obalno - kraška",
+    "kostanjevica na krki": "posavska",
+    "kostel": "jugovzhodna slovenija",
+    "kozje": "savinjska",
+    "kranj": "gorenjska",
+    "kranjska gora": "gorenjska",
+    "križevci": "pomurska",
+    "krško": "posavska",
+    "kungota": "podravska",
+    "kuzma": "pomurska",
+    "laško": "savinjska",
+    "lenart": "podravska",
+    "lendava": "pomurska",
+    "litija": "osrednjeslovenska",
+    "ljubljana": "osrednjeslovenska",
+    "ljubno": "savinjska",
+    "ljutomer": "pomurska",
+    "log - dragomer": "osrednjeslovenska",
+    "logatec": "osrednjeslovenska",
+    "loška dolina": "primorsko - notranjska",
+    "loški potok": "jugovzhodna slovenija",
+    "lovrenc na pohorju": "podravska",
+    "luče": "savinjska",
+    "lukovica": "osrednjeslovenska",
+    "majšperk": "podravska",
+    "makole": "podravska",
+    "maribor": "podravska",
+    "markovci": "podravska",
+    "medvode": "osrednjeslovenska",
+    "mengeš": "osrednjeslovenska",
+    "metlika": "jugovzhodna slovenija",
+    "mežica": "koroška",
+    "miklavž na dravskem polju": "podravska",
+    "miren - kostanjevica": "goriška",
+    "mirna": "jugovzhodna slovenija",
+    "mirna peč": "jugovzhodna slovenija",
+    "mislinja": "koroška",
+    "mokronog - trebelno": "jugovzhodna slovenija",
+    "moravče": "osrednjeslovenska",
+    "moravske toplice": "pomurska",
+    "mozirje": "savinjska",
+    "murska sobota": "pomurska",
+    "muta": "koroška",
+    "naklo": "gorenjska",
+    "nazarje": "savinjska",
+    "nova gorica": "goriška",
+    "novo mesto": "jugovzhodna slovenija",
+    "odranci": "pomurska",
+    "oplotnica": "podravska",
+    "ormož": "podravska",
+    "osilnica": "jugovzhodna slovenija",
+    "pesnica": "podravska",
+    "piran": "obalno - kraška",
+    "pivka": "obalno - kraška",
+    "podčetrtek": "savinjska",
+    "podlehnik": "podravska",
+    "podvelka": "koroška",
+    "poljčane": "podravska",
+    "polzela": "savinjska",
+    "postojna": "primorsko - notranjska",
+    "prebold": "savinjska",
+    "preddvor": "gorenjska",
+    "prevalje": "koroška",
+    "ptuj": "podravska",
+    "puconci": "pomurska",
+    "rače - fram": "podravska",
+    "radeče": "obalno - kraška",
+    "radenci": "pomurska",
+    "radlje ob dravi": "koroška",
+    "radovljica": "gorenjska",
+    "ravne na koroškem": "koroška",
+    "razkrižje": "pomurska",
+    "rečica ob savinji": "savinjska",
+    "renče - vogrsko": "goriška",
+    "ribnica": "jugovzhodna slovenija",
+    "ribnica na pohorju": "koroška",
+    "rogaška slatina": "savinjska",
+    "rogašovci": "pomurska",
+    "rogatec": "savinjska",
+    "ruše": "podravska",
+    "selnica ob dravi": "podravska",
+    "semič": "jugovzhodna slovenija",
+    "sevnica": "posavska",
+    "sežana": "obalno - kraška",
+    "slovenj gradec": "koroška",
+    "slovenska bistrica": "podravska",
+    "slovenske konjice": "savinjska",
+    "sodražica": "jugovzhodna",
+    "solčava": "savinjska",
+    "središče ob dravi": "podravska",
+    "starše": "podravska",
+    "straža": "jugovzhodna slovenija",
+    "sveta ana": "podravska",
+    "sveta trojica v slovenskih goricah": "podravska",
+    "sveti andraž v slovenskih goricah": "podravska",
+    "sveti jurij ob ščavnici": "pomurska",
+    "sveti jurij v slovenskih goricah": "podravska",
+    "sveti tomaž": "podravska",
+    "šalovci": "pomurska",
+    "šempeter - vrtojba": "goriška",
+    "šenčur": "gorenjska",
+    "šentilj": "podravska",
+    "šentjernej": "jugovzhodna slovenija",
+    "šentjur": "savinjska",
+    "šentrupert": "jugovzhodna slovenija",
+    "škocjan": "jugovzhodna slovenija",
+    "škofja loka": "gorenjska",
+    "škofljica": "osrednjeslovenska",
+    "šmarje pri jelšah": "savinjska",
+    "šmarješke toplice": "osrednjeslovenska",
+    "šmartno pri litiji": "osrednjeslovenska",
+    "šmartno ob paki": "savinjska",
+    "šoštanj": "savinjska",
+    "štore": "savinjska",
+    "tabor": "savinjska",
+    "tišina": "pomurska",
+    "tolmin": "goriška",
+    "trbovlje": "zasavska",
+    "trebnje": "jugovzhodna",
+    "trnovska vas": "savinjska",
+    "trzin": "gorenjska",
+    "tržič": "gorenjska",
+    "turnišče": "pomurska",
+    "velenje": "savinjska",
+    "velika polana": "pomurska",
+    "velike lašče": "osrednjeslovenska",
+    "veržej": "pomurska",
+    "videm": "podravska",
+    "vipava": "goriška",
+    "vitanje": "savinjska",
+    "vodice": "osrednjeslovenska",
+    "vojnik": "savinjska",
+    "vransko": "savinjska",
+    "vrhnika": "osrednjeslovenska",
+    "vuzenica": "koroška",
+    "zagorje ob savi": "zasavska",
+    "zavrč": "podravska",
+    "zreče": "savinjska",
+    "žalec": "savinjska",
+    "železniki": "gorenjska",
+    "žetale": "podravska",
+    "žiri": "gorenjska",
+    "žirovnica": "gorenjska",
+    "žužemberk": "jugovzhodna slovenija"
+  }
+}
