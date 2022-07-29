@@ -15,7 +15,7 @@ private val moshi = Moshi.Builder()
     .build()
 
 private const val BASE_URL =
-    "http://oskardolenc.eu:591/"
+    "https://nominatim.oskardolenc.eu/"
 
 private val retrofit = Retrofit.Builder()
     .addConverterFactory(MoshiConverterFactory.create(moshi))
